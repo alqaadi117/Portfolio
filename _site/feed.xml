@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-10T15:33:41+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">comb project</title><link href="http://localhost:4000/portfolio/comb" rel="alternate" type="text/html" title="comb project" /><published>2025-08-07T23:35:17+01:00</published><updated>2025-08-07T23:35:17+01:00</updated><id>http://localhost:4000/portfolio/the-old-comb</id><content type="html" xml:base="http://localhost:4000/portfolio/comb"><![CDATA[<p>Project comb:
+Topics:</p>
+<ol>
+  <li>
+    <p>Product description
+Styling Hair comb
+Problem: regular standard combs work optimally with straight hair since it flow properties can be displayed in 2 dimensional. However curly hairs requires 3 dimesional.
+To be more precise, the comparison in description starts only after detangling; standard 
+When brushing curly hairs using tradional comb 
+[following is displayed in PowerPoint like boxes and arrows]
+Straight hair: comb straights hair in the 1 direction, hair clumps in the y direction, hair dryes and stays in shape
+Curly hair: comb curly hair in the 1 direction, hair clumps  in the y direction, hair starts drying, hair starts twisting in groups determined by the clumps, natural curl force works against clump, causing clump to break and result messy hair.
+A simple alternative solution is to drench hair in water, this causes neighboring hair strands to clump, when it dries, the hair curling force doesn’t work against clump.
+[image of trad comb, with straight line highlighted]
+While this is a good solution, it forces users to drench their hair full and dry it which takes a very long time and demotivates most people. This is the problem we intent to solve by introducing comb which separates and clumps hair with minimum amount of water thus saving estimated 60% of users times.
+[image of comb clumping spaces in rectangular lines]</p>
+  </li>
+  <li>Product requirements(important): material, weight, simplicity, minimum body parts, design for 3d printing
+Very light weight is imperative, simple in aesthetic, minimum body parts to insure higher lifespan.
+The product will be 3d printed with flexible material using SLS(use longer version) since product won’t suffer from anisotropic complications. Current printing material is Nylon 12 which is flexible to the required degree.</li>
+  <li>
+    <p>Protoypes, overall and induvial mechanism
+There have being numerous comb design prototypes, with many mechanism considered. This section will detail some of them so as to show why the final result is logical and near excellence{c’mon be more humble}.
+List of considered mechanism:
+rigid teeth vs bending teeth made from smart material.
+Comb teeth are not parallel but are angled and expand from the center. A mechanism reduces the angle b/w teeth, this has the advantage of using thinner teeth and simpler parts but it lacks accuracy.
+Rotating teeth
+Switch mechanism: 
+Latch + stick + bell crank/scotch yoke + spring
+Latch(bending stick with linear snap action)
+Latch(push-push mechanism)
+-Prototype 1
+Pictures of first prototype[gearfest]
+Prototype 2
+Images of second prototype [spiraling way to heaven]
+Prototype 3
+Images of third prototype [layered skin]</p>
+  </li>
+  <li>Material properties
+Nylon 12; flexible plastic, low water absorption.</li>
+  <li>Simulation: fixture; detent mechanism
+There are 3 points that requires simulation; top fixture, detent mechanism, teeth-hair contact.
+Show top fixture simulation pictures; state material strain limits, compare and state chosen
+Show compliant detent mechanism, show that it either week or requires too much force. State that operating force is 1-3N
+Do a quick simulation on teeth-hair</li>
+  <li>Topology optimization
+Do topology optimization.
+If you cant then remove this section</li>
+  <li>Better design; compliant, statement of my limited knowledge
+Later mechanism</li>
+  <li>Aesthetic [idk]</li>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Project comb: Topics: Product description Styling Hair comb Problem: regular standard combs work optimally with straight hair since it flow properties can be displayed in 2 dimensional. However curly hairs requires 3 dimesional. To be more precise, the comparison in description starts only after detangling; standard When brushing curly hairs using tradional comb [following is displayed in PowerPoint like boxes and arrows] Straight hair: comb straights hair in the 1 direction, hair clumps in the y direction, hair dryes and stays in shape Curly hair: comb curly hair in the 1 direction, hair clumps in the y direction, hair starts drying, hair starts twisting in groups determined by the clumps, natural curl force works against clump, causing clump to break and result messy hair. A simple alternative solution is to drench hair in water, this causes neighboring hair strands to clump, when it dries, the hair curling force doesn’t work against clump. [image of trad comb, with straight line highlighted] While this is a good solution, it forces users to drench their hair full and dry it which takes a very long time and demotivates most people. This is the problem we intent to solve by introducing comb which separates and clumps hair with minimum amount of water thus saving estimated 60% of users times. [image of comb clumping spaces in rectangular lines]]]></summary></entry><entry><title type="html">mark my resume</title><link href="http://localhost:4000/portfolio/markedResume" rel="alternate" type="text/html" title="mark my resume" /><published>2025-08-07T23:35:17+01:00</published><updated>2025-08-07T23:35:17+01:00</updated><id>http://localhost:4000/portfolio/resume</id><content type="html" xml:base="http://localhost:4000/portfolio/markedResume"><![CDATA[<style>
+table {
+  border-collapse: collapse;
+  border: none;
+}
+table, th, td, tr {
+  background-color: transparent !important;
+}
+table, th, td {
+  border: none !important;
+}
+</style>
+
+<h1 id="abdulaahi-mohamed">Abdulaahi Mohamed</h1>
+
+<p>I am an MSc Mechanical Engineer graduate, specializing in Manufacturing Processes and Mechatronic system design. My expertise includes working with flexible fiber-based materials and utilizing tools such as SolidWorks, RSLogix 500, LabVIEW, and Unity. In addition, I have over 8 years of programming experience in languages like C, C++, C#, JavaScript, Python, and Rust, combining engineering knowledge with strong technical skills. I also gained practical experience in production, automation, assembly, and maintenance during my time at the Coca-Cola Bottling Company.
+___
+CONTACT INFORMATION</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>a</th>
+      <th>A</th>
+      <th>A</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sa</td>
+      <td>sa</td>
+      <td>sa</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Nationality:finnish | addres:Korpimetsänkatu
+a</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>a</td>
+      <td>a</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nationality:</th>
+      <th>Finnish</th>
+      <th>Address:</th>
+      <th>Korpimetsänkatu 5 B 36 Lappeenranta, South Kaleria</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mobile :</td>
+      <td>045 324 80 90</td>
+      <td>Email:</td>
+      <td>Abdulaahi.mohamed@outlook.com</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Left Align</th>
+      <th style="text-align: center">Center Align</th>
+      <th style="text-align: right">Right Align</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Text</td>
+      <td style="text-align: center">Text</td>
+      <td style="text-align: right">Text</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<p>EDUCATION<br /></p>
+
+<hr />
+<p>Lappeenranta-Lahti University of Technology LUT      			      	             Graduated May 2024 
+MSc in Mechanical Engineering					   			        Lappeenranta, South Karelia
+	GPA: 3.2
+	Specialty: “Sustainable Manufacturing Processes” and “Robotics and Mechatronics”
+	Master thesis topic: “Investigating the practicality of ultrasonic sealing for flexible fiber-based materials as a lidding for paper cup applications” conducted at LUT Packaging Technology laboratory
+o	The thesis experiment was conducted using UPM materials Prego and Confidio. It consisted of two parts: Firstly, the samples were ultrasonically sealed and tested for seal strength according to ASTM F88. Secondly, the same materials were ultrasonically sealed as lids for disposable paper cups made from CupForma Special PE, contributing to the R&amp;D efforts in sustainable packaging solutions.</p>
+
+<p>WORK EXPERIENCE</p>
+
+<p>Finnish Army conscript - karjalan prikaati							   Jul 2024 – Dec 2024
+Jääkeri											      Vekaranjärvi, kymenlaakso
+	6 month mandatory service in Kranaatinheitinkomppanian.
+	Gained an understanding of hierarchical leadership; observing the flow of orders, how subordinates are kept in the dark; and the importance of keeping morale during stressful times.
+	Cultivated strong work ethic, efficiency in time and resources under extremely stressful conditions.
+	Realized the value of teamwork and mutual reliance, sharing workload, motivating, and ensuring that no one slacks off.</p>
+
+<p>Coca-Cola Bottling Company United							  Aug 2017 – Sep 2017
+Internship											      Mogadishu, Banaadir
+	Production; Worked at the production line for 2 weeks with machines involved in the production from blowing, filling, shrink to water treatment plant.
+	Maintenance; Worked with the maintenance team for a week at a time when most of the machines were in dire need of maintenance.</p>
+
+<p>SKILLS &amp; INTERESTS [reduce]</p>
+
+<p>	Skills: 8+ years of Software &amp; Programming (C, C++, C#); experienced with CAD software (Solidworks &amp; AutoCAD), Unity engine; ANSYS, LabVIEW, and AutoCAD; basic skills in RSLogix 500.
+	Interests: Programming; Problem solving; Art (mostly classical); collecting items; photography; Futsal;
+	Language: English (fluency)</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Abdulaahi Mohamed]]></summary></entry><entry><title type="html">comb</title><link href="http://localhost:4000/portfolio/combb" rel="alternate" type="text/html" title="comb" /><published>2025-08-07T23:35:17+01:00</published><updated>2025-08-07T23:35:17+01:00</updated><id>http://localhost:4000/portfolio/comb</id><content type="html" xml:base="http://localhost:4000/portfolio/combb"><![CDATA[<center> 
+
+# Project comb
+
+</center>
+<p>Topics</p>
+
+<h2 id="product-description">Product description</h2>
+<p>Styling Hair comb<br />
+Problem: regular standard combs work optimally with straight hair since it flow properties can be displayed in 2 dimensional. However curly hairs requires 3 dimesional.<br />
+To be more precise, the comparison in description starts only after detangling; standard.<br />
+When brushing curly hairs using tradional comb<br />
+[following is displayed in PowerPoint like boxes and arrows]<br />
+Straight hair: comb straights hair in the 1 direction, hair clumps in the y direction, hair dryes and stays in shape<br />
+Curly hair: comb curly hair in the 1 direction, hair clumps in the y direction, hair starts drying, hair starts twisting in groups determined by the clumps, natural curl force works against clump, causing clump to break and result messy hair.<br />
+A simple alternative solution is to drench hair in water, this causes neighboring hair strands to clump, when it dries, the hair curling force doesn’t work against clump.<br />
+[image of trad comb, with straight line highlighted]<br />
+While this is a good solution, it forces users to drench their hair full and dry it which takes a very long time and demotivates most people. This is the problem we intent to solve by introducing comb which separates and clumps hair with minimum amount of water thus saving estimated 60% of users times.<br />
+[image of comb clumping spaces in rectangular lines]</p>
+
+<h2 id="product-requirementsimportant-material-weight-simplicity-minimum-body-parts-design-for-3d-printing">Product requirements(important): material, weight, simplicity, minimum body parts, design for 3d printing</h2>
+<p>Very light weight is imperative, simple in aesthetic, minimum body parts to insure higher lifespan.<br />
+The product will be 3d printed with flexible material using SLS(use longer version) since product won’t suffer from anisotropic complications. Current printing material is Nylon 12 which is flexible to the required degree.</p>
+
+<h2 id="protoypes-overall-and-induvial-mechanism">Protoypes, overall and induvial mechanism</h2>
+<p>There have being numerous comb design prototypes, with many mechanism considered. This section will detail some of them so as to show why the final result is logical and near excellence{c’mon be more humble}.<br />
+List of considered mechanism:<br />
+rigid teeth vs bending teeth made from smart material.<br />
+Comb teeth are not parallel but are angled and expand from the center. A mechanism reduces the angle b/w teeth, this has the advantage of using thinner teeth and simpler parts but it lacks accuracy.<br />
+Rotating teeth<br />
+Switch mechanism:<br />
+Latch + stick + bell crank/scotch yoke + spring<br />
+Latch(bending stick with linear snap action)<br />
+Latch(push-push mechanism)<br />
+-Prototype 1<br />
+Pictures of first prototype[gearfest]<br />
+Prototype 2<br />
+Images of second prototype [spiraling way to heaven]<br />
+Prototype 3<br />
+Images of third prototype [layered skin]</p>
+
+<h2 id="material-properties">Material properties</h2>
+<p>Nylon 12; flexible plastic, low water absorption.</p>
+<h2 id="simulation-fixture-detent-mechanism">Simulation: fixture; detent mechanism</h2>
+<p>There are 3 points that requires simulation; top fixture, detent mechanism, teeth-hair contact.<br />
+Show top fixture simulation pictures; state material strain limits, compare and state chosen<br />
+Show compliant detent mechanism, show that it either week or requires too much force. State that operating force is 1-3N<br />
+Do a quick simulation on teeth-hair</p>
+<h2 id="topology-optimization">Topology optimization</h2>
+<p>Do topology optimization.<br />
+If you cant then remove this section</p>
+<h2 id="better-design-compliant-statement-of-my-limited-knowledge">Better design; compliant, statement of my limited knowledge</h2>
+<p>Later mechanism</p>
+<h2 id="aesthetic-idk">Aesthetic [idk]</h2>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Testing copy</title><link href="http://localhost:4000/jekyll/update/2025/08/04/testing-copy.html" rel="alternate" type="text/html" title="Testing copy" /><published>2025-08-04T23:35:17+01:00</published><updated>2025-08-04T23:35:17+01:00</updated><id>http://localhost:4000/jekyll/update/2025/08/04/testing%20copy</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/08/04/testing-copy.html"><![CDATA[<p>new confused branch
+You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[new confused branch You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/hinge.png" /><media:content medium="image" url="http://localhost:4000/assets/hinge.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/welcomeToJekyll" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2025-08-04T23:35:17+01:00</published><updated>2025-08-04T23:35:17+01:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/welcomeToJekyll"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Testing</title><link href="http://localhost:4000/jekyll/update/2025/08/04/testing.html" rel="alternate" type="text/html" title="Testing" /><published>2025-08-04T23:35:17+01:00</published><updated>2025-08-04T23:35:17+01:00</updated><id>http://localhost:4000/jekyll/update/2025/08/04/testing</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/08/04/testing.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/hinge.png" /><media:content medium="image" url="http://localhost:4000/assets/hinge.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">my first poist</title><link href="http://localhost:4000/2023/08/01/my-firstpost.html" rel="alternate" type="text/html" title="my first poist" /><published>2023-08-01T00:00:00+01:00</published><updated>2023-08-01T00:00:00+01:00</updated><id>http://localhost:4000/2023/08/01/my-firstpost</id><content type="html" xml:base="http://localhost:4000/2023/08/01/my-firstpost.html"><![CDATA[<p>something i’m writing</p>]]></content><author><name></name></author><summary type="html"><![CDATA[something i’m writing]]></summary></entry></feed>
