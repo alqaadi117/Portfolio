@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "bf41aabeb8fc78d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c135c5624245598",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ae9c316fd6529a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/1900-01-01-resume.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "1900-01-01-resume"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c4d11ccafd1f6cb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8f03b3c67627d82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/1900-01-01-resume.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "1900-01-01-resume"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1fcce6ce69dab1ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0084fe4adec8d45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "319a74d83a41df68",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "aafe96580cab7b62",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4312d4524aab5bea",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "fd7f39983136f78d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0cbbda6df271256b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c86dad7ca68b6441",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/1900-01-01-resume.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1900-01-01-resume"
+            }
+          },
+          {
+            "id": "f203cc290d73b7f3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/1900-01-01-resume.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1900-01-01-resume"
+            }
+          },
+          {
+            "id": "11d3a897ff698fcc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "67fe9a30c32465e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/1900-01-01-resume.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1900-01-01-resume"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4ae9c316fd6529a8",
+  "lastOpenFiles": [
+    "_posts/~$hamed abdulaahi CV.docx",
+    "_posts/1900-01-01-comb.md",
+    "_posts/1900-01-01-resume.md",
+    "pages/comb.md",
+    "_posts/2025-08-04-welcome-to-jekyll.md",
+    "_posts/2025-08-04-testing.md",
+    "_posts/2025-08-04-testing copy.md",
+    "_posts/1900-01-01-the-old-comb.md",
+    "pages/fancy resume.md",
+    "pages/resume copy.md",
+    "resume.md",
+    "resume copy.md",
+    "_posts/2023-08-01-my-firstpost.md"
+  ]
+}
