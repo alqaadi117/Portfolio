@@ -1,0 +1,59 @@
+---
+title: "comb"
+permalink: portfolio/comb
+---
+
+Project comb:
+Topics:
+1.	Product description
+Styling Hair comb
+Problem: regular standard combs work optimally with straight hair since it flow properties can be displayed in 2 dimensional. However curly hairs requires 3 dimesional.
+To be more precise, the comparison in description starts only after detangling; standard 
+When brushing curly hairs using tradional comb 
+[following is displayed in PowerPoint like boxes and arrows]
+Straight hair: comb straights hair in the 1 direction, hair clumps in the y direction, hair dryes and stays in shape
+Curly hair: comb curly hair in the 1 direction, hair clumps  in the y direction, hair starts drying, hair starts twisting in groups determined by the clumps, natural curl force works against clump, causing clump to break and result messy hair.
+A simple alternative solution is to drench hair in water, this causes neighboring hair strands to clump, when it dries, the hair curling force doesn’t work against clump.
+[image of trad comb, with straight line highlighted]
+While this is a good solution, it forces users to drench their hair full and dry it which takes a very long time and demotivates most people. This is the problem we intent to solve by introducing comb which separates and clumps hair with minimum amount of water thus saving estimated 60% of users times.
+[image of comb clumping spaces in rectangular lines] 
+
+
+
+2.	Product requirements(important): material, weight, simplicity, minimum body parts, design for 3d printing
+Very light weight is imperative, simple in aesthetic, minimum body parts to insure higher lifespan.
+The product will be 3d printed with flexible material using SLS(use longer version) since product won’t suffer from anisotropic complications. Current printing material is Nylon 12 which is flexible to the required degree.
+3.	Protoypes, overall and induvial mechanism
+There have being numerous comb design prototypes, with many mechanism considered. This section will detail some of them so as to show why the final result is logical and near excellence{c’mon be more humble}.
+List of considered mechanism:
+rigid teeth vs bending teeth made from smart material.
+Comb teeth are not parallel but are angled and expand from the center. A mechanism reduces the angle b/w teeth, this has the advantage of using thinner teeth and simpler parts but it lacks accuracy.
+Rotating teeth
+Switch mechanism: 
+Latch + stick + bell crank/scotch yoke + spring
+Latch(bending stick with linear snap action)
+Latch(push-push mechanism)
+
+Prototype 1
+Pictures of first prototype[gearfest]
+Prototype 2
+Images of second prototype [spiraling way to heaven]
+Prototype 3
+Images of third prototype [layered skin]
+
+
+
+4.	Material properties
+Nylon 12; flexible plastic, low water absorption. 
+5.	Simulation: fixture; detent mechanism
+There are 3 points that requires simulation; top fixture, detent mechanism, teeth-hair contact.
+Show top fixture simulation pictures; state material strain limits, compare and state chosen
+Show compliant detent mechanism, show that it either week or requires too much force. State that operating force is 1-3N
+Do a quick simulation on teeth-hair
+6.	Topology optimization
+Do topology optimization.
+If you cant then remove this section
+7.	Better design; compliant, statement of my limited knowledge
+Later mechanism
+8.	Aesthetic [idk]
+

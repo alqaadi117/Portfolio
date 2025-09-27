@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- dont touch the head --><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>shax 0.1 | Your awesome title</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="shax 0.1" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Product description" />
+<meta property="og:description" content="Product description" />
+<link rel="canonical" href="http://localhost:4000/Portfolio/portfolio/shax_01" />
+<meta property="og:url" content="http://localhost:4000/Portfolio/portfolio/shax_01" />
+<meta property="og:site_name" content="Your awesome title" />
+<meta property="og:image" content="http://localhost:4000/Portfolio/assets/shax-pipeline-Flowchart.svg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-08T01:35:17+03:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/Portfolio/assets/shax-pipeline-Flowchart.svg" />
+<meta property="twitter:title" content="shax 0.1" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-08T01:35:17+03:00","datePublished":"2025-08-08T01:35:17+03:00","description":"Product description","headline":"shax 0.1","image":"http://localhost:4000/Portfolio/assets/shax-pipeline-Flowchart.svg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Portfolio/portfolio/shax_01"},"url":"http://localhost:4000/Portfolio/portfolio/shax_01"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/Portfolio/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Portfolio/feed.xml" title="Your awesome title" /></head>
+<body>
+    <!-- header displays stuff in header --><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/Portfolio/">Your awesome title</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <!-- this manages the top extra links -->
+        <!-- <div class="trigger"><a class="page-link" href="/Portfolio/about/">About</a><a class="page-link" href="/Portfolio/portfolio/comb">comb</a><a class="page-link" href="/Portfolio/portfolio/fancy/resumeInPage">fancy cv</a><a class="page-link" href="/Portfolio/portfolio/resume22">resume2</a><a class="page-link" href="/Portfolio/portfolio/resumeInPage">resume3</a><a class="page-link" href="/Portfolio/portfolio/resume">resume</a></div> --> 
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">shax 0.1</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2025-08-08T01:35:17+03:00" itemprop="datePublished"><!-- Aug 8, 2025 -->
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h1 id="product-description">Product description</h1>
+
+<p>Shax (also known as Jar) is an abstract strategy game with custodian capture rules, played on a 5X5 board. The game consists of two phases: a <em>placement phase</em> followed by a <em>movement and capture phase</em>. Shax is popular in East Africa, and while its exact origin is unknown, it is closely related to <em>Seega</em>, a traditional game from Egypt.</p>
+
+<p>This demo showcases an AI engine for Shax, implemented using Monte Carlos tree search algorithm. Rather than solving the game exhaustively, the engine optimally traverses through the nodes to identify strong moves. The demo also includes visualization of the moves explored by MCTS with metadata attached to individual nodes.</p>
+
+<!--
+<iframe src="/Portfolio/unity/shax01/index.html"></iframe>
+<a href="/Portfolio/unity/shax01/index.html">Play My Game</a>
+-->
+
+<iframe src="/Portfolio/unity/shax2502/index.html" width="1024" height="620" style="position: relative;  left: 50%;  transform: translateX(-50%);  border:none;"></iframe>
+
+<!-- style= "display: flex;  justify-content: center; width: 100vw;   margin-left: calc(50% - 50vw);" -->
+<!-- style="display:block; position: relative; width: 100vw;  margin-left: 50%;   transform: translateX(-50%);" -->
+<!-- width="1024" 
+  height="576"  -->
+<p><!-- allign="right" -->
+ <!-- style="border:none;" --></p>
+
+<p><br /></p>
+<h1 id="engine-making">Engine making</h1>
+
+<h2 id="board-state">board state:</h2>
+
+<p>The state of the board can be formatted in to ways serialized or matrix.
+using matrix is much easier and more intuitive but is requires larger storage and higher stress in computation; with calculation literally in the thousands it’s wiser to use serialized format.
+{insert image here, showing both}
+the board is stored in 25 int array. the board also has meta data that are required which are: turn, last capture, current game phase; these take 3 slots thus the board becomes 28 int arrays.</p>
+
+<p><img src="/Portfolio/assets/boardState.svg" style="display: block; margin: 0 auto;" /></p>
+
+<p>Converting between serial and matrix back and forth is generally avoided, but in situations needed the code below is used.</p>
+
+<figure class="highlight">
+  <pre><code class="language-csharp" data-lang="csharp"><span class="kt">int</span><span class="p">[]</span> <span class="n">matrix</span> <span class="p">=</span> <span class="p">{</span> <span class="n">position</span> <span class="p">%</span> <span class="m">5</span><span class="p">,</span> <span class="p">-</span><span class="n">Mathf</span><span class="p">.</span><span class="nf">FloorToInt</span><span class="p">(</span><span class="n">position</span> <span class="p">/</span> <span class="m">5</span><span class="p">)</span> <span class="p">};</span> <span class="c1">// series to matrix</span>
+<span class="kt">int</span> <span class="n">series</span> <span class="p">=</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">Mathf</span><span class="p">.</span><span class="nf">Abs</span><span class="p">(</span><span class="n">matrix</span><span class="p">[</span><span class="m">1</span><span class="p">])</span> <span class="p">*</span> <span class="m">5</span> <span class="p">+</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">matrix</span><span class="p">[</span><span class="m">0</span><span class="p">];</span>     <span class="c1">// matrix to series</span></code></pre>
+</figure>
+
+<p>The board has blue vs black piece with each piece having an identifier; blue goes from 1-12, black goes from 13-24; zero means slot is empty. when verifying if a move causes capture, u have to know between friend or foe.</p>
+
+<figure class="highlight">
+  <pre><code class="language-csharp" data-lang="csharp"><span class="k">if</span> <span class="n">position2</span> <span class="k">is</span> <span class="m">1</span> <span class="p">+</span> <span class="p">(</span><span class="m">12</span> <span class="p">*</span> <span class="p">(</span><span class="n">position1</span><span class="p">))</span> <span class="p">&lt;-&gt;</span> <span class="m">12</span> <span class="p">+</span> <span class="p">(</span><span class="m">12</span> <span class="p">*</span> <span class="p">(</span><span class="n">position1</span><span class="p">));</span> <span class="c1">//it's friend</span>
+<span class="k">if</span> <span class="n">position2</span> <span class="k">is</span> <span class="m">1</span> <span class="p">+</span> <span class="p">(</span><span class="m">12</span> <span class="p">*</span> <span class="p">(</span><span class="m">1</span> <span class="p">-</span> <span class="n">position1</span><span class="p">))</span> <span class="p">&lt;-&gt;</span> <span class="m">12</span> <span class="p">+</span> <span class="p">(</span><span class="m">12</span> <span class="p">*</span> <span class="p">(</span><span class="m">1</span> <span class="p">-</span> <span class="n">position1</span><span class="p">));</span> <span class="c1">//it's foe</span></code></pre>
+</figure>
+
+<p>In matrix format, knowing adjacent positions is intuitive. but in series format (FEN) it’s a bit tricky; Converting FEN to matrix and calculating adjacent positions then converting back to FEN defeats the purpose of serialization.
+To find adjacent in serialized position without any conversion, we use the following code; it’s also important to verify that ur not on any edges.</p>
+
+<figure class="highlight">
+  <pre><code class="language-csharp" data-lang="csharp"><span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="p">&gt;=</span> <span class="m">5</span><span class="p">)</span> <span class="n">localBoardState</span><span class="p">[</span><span class="n">i</span> <span class="p">-</span> <span class="m">5</span><span class="p">]</span>  <span class="c1">//up</span>
+<span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="p">&lt;</span> <span class="m">20</span><span class="p">)</span> <span class="n">localBoardState</span><span class="p">[</span><span class="n">i</span> <span class="p">+</span> <span class="m">5</span><span class="p">]</span> <span class="c1">//down </span>
+<span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="p">%</span> <span class="m">5</span> <span class="p">!=</span> <span class="m">4</span><span class="p">)</span> <span class="n">localBoardState</span><span class="p">[</span><span class="n">i</span> <span class="p">+</span> <span class="m">1</span><span class="p">]</span> <span class="c1">//right</span>
+<span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="p">%</span> <span class="m">5</span> <span class="p">!=</span> <span class="m">0</span><span class="p">)</span> <span class="n">localBoardState</span><span class="p">[</span><span class="n">i</span> <span class="p">-</span> <span class="m">1</span><span class="p">]</span> <span class="c1">//left</span></code></pre>
+</figure>
+
+<p>Most calculation related to board state constitutes of mixing and modifying the last 2 equations and delving into it is unnecessary.</p>
+
+<h2 id="move-logic-pipeline">Move Logic Pipeline</h2>
+
+<!-- The logic code follows this diagram.<br> -->
+<p><img src="/Portfolio/assets/shax-pipeline-Flowchart.svg" style="display: block; margin: 0 auto;" />
+<!-- //simply have an image which shows everything, then i'll try and explain the rest. -->
+<br /></p>
+
+<h2 id="mcts">MCTS</h2>
+
+<p>Game decisions form a branching search space, too large to fully calculate. A <strong>greedy policy</strong> takes the immediate best reward but often fails long term. <strong>Monte Carlo Tree Search (MCTS)</strong> tackles this by running <strong>simulated rollouts</strong> and updating <strong>value estimates</strong> at each branch. Its key innovation is balancing <strong>exploration and exploitation</strong>, much like modern AI agents do when learning from experience. Over many iterations, the search <strong>converges toward optimal strategies</strong> without needing prior training data.</p>
+
+<p>In small games like tic-tac-toe, the state space is tiny enough that the full game tree can be pre-computed. But in larger games that scale toward <strong>PSPACE-hard</strong> or even <strong>EXPTIME-level</strong> complexity, the branching and depth explode, making exhaustive search impossible. This is where <strong>Monte Carlo Tree Search</strong> proves valuable: by running targeted simulations, it can handle decision spaces far beyond what brute-force methods allow.</p>
+
+<h2 id="heuristic-board-analysis">Heuristic Board analysis</h2>
+
+<p>Relying only on capture value for scoring node is inefficient generally and outright fail in the first phase since it’s the placement phase. therefore it’s necessary to analyze the board and give heuristic value.</p>
+
+<p>Currently there are 5 pattern we use, if they’re found in the board an extra value is give to the board. if the player is actively threatening a piece they also get point. if the player puts piece in negative positions they lose a point -negative positions marked <strong>Red X</strong> are position which block advantageous movement and most pattern have negative position-</p>
+
+<div style="display: flex; justify-content: space-between;">
+  <h4 style="margin: 0;"><img src="/Portfolio/assets/knightRookControl.png" /></h4>
+  <h4 style="margin: 0;"><img src="/Portfolio/assets/control.png" /></h4>
+</div>
+
+<!-- <img src="/Portfolio/assets/knightRookControl.png">
+<img src="/Portfolio/assets/control.png"> -->
+<p>The five patterns are as follow:</p>
+
+<p>Knight control (+2pts), Rook control (+2pts), Solo corner control (+1pt), Duo corner control, Trio edge control (+2pts).</p>
+
+<p>Every instance of the game board can be analyzed and given a score. for example this board below has score of xyx from blue side.</p>
+
+<!-- <img src="/Portfolio/assets/midGame-annotation.svg" style="display: block; margin: 0 auto;"> -->
+<p><img src="/Portfolio/assets/midGame-annotation.svg" /></p>
+
+<h2 id="mct-ui">MCT UI</h2>
+<p>little monty and big monty<br />
+MCTS UI tree was built with unity UI toolkit which uses CSS Flexbox-like styling system. In this section the challenge was less about the tool but how to display it in manner that is informative and user friendly, avoiding cluttering etc.<br />
+That’s why we decided to use tree system with minimized text and added indicator on the board to avoid using information board[find better word].</p>
+
+<video width="736" height="414" autoplay="" muted="" style="display: block; margin: 0 auto;">
+<source src="/Portfolio/assets/UI-demo.mp4" type="video/mp4" />
+</video>
+
+<p><br /></p>
+<h2 id="miscellaneous">Miscellaneous</h2>
+<h3 id="my-version">[my version]<br /></h3>
+<p>There were numerous problems faced in making the engine. Initially there was no simulation in the MCTS this caused the moves to be uninspiring and predictable while also reducing entropy. there was also the cases of AI becoming too defensive and other cases of it becoming careless about the danger; this hubris was due to the lack of Bi-turn backpropagation. And finally the hardest problem to solve OOM-out of memory-. In this section, will go through them in details.</p>
+
+<p>During the early development of the engine, the AI was too defensive because all backpropagation stages were values the same, this was fixed by adding exponential decay along the backpropagation. and in the case were the AI was too offensive, this was triggered because half the nodes are disproportionate [ends without complete bi-turn cycles]. For example, if the AI count odd moves like ‘AI-&gt;human-&gt;AI’ it would assume it has advantage when in reality it should’ve considered the following opponents move. this was a particularly hindering problem and it’s solution is to stop backpropagation only at even moves.<br /></p>
+
+<p><img src="/Portfolio/assets/Bi-turn.svg" style="display: block; margin: 0 auto;" /></p>
+
+<p>OOM or ‘out of memory exception’ was particularly re-occurring problem in the web build of the engine. this was due to the reality that AI algorithm require a huge memory. My jar-engine suffered from 1.5 GB of memory spike after every calculation. this was because every node was
+this was because i had a heuristic function with 10 list&lt;int[2]&gt;, each list containing 4 int[2]; the heuristic function is called 5 times per node and there are 30,000 node. this calls for <strong>6 million</strong> heap allocation causing ludicrous memory spike. the solution was to switch from list to struct to avoid constant allocation followed de-allocation in the heap. and any list which couldn’t be changed to struct were kept with the use scratchpad which is basically reusing the same list by manually clearing it with each use. these 2 solutions made the spike to a 100 MB per MCTS calculation reducing 75% from the original spike.</p>
+
+<h3 id="gpt-version">[gpt version]<br /></h3>
+<p>Several challenges arose during the development of the engine. Initially, the absence of simulation in the MCTS resulted in moves that were predictable and uninspiring, with reduced entropy. In some cases, the AI became overly defensive, while in others it neglected potential dangers; this inconsistency stemmed from the lack of bi-turn backpropagation. The most difficult issue, however, was out-of-memory (OOM) errors. In this section, each of these problems will be discussed in detail.</p>
+
+<p>During the early stages of development, the AI often played too defensively because all stages of backpropagation were weighted equally. This issue was resolved by applying exponential decay along the backpropagation path. Conversely, when the AI played too aggressively, the problem stemmed from nodes that ended prematurely, without completing a full bi-turn cycle. For example, after a sequence like <em>AI → Human → AI</em>, the engine mistakenly assumed an advantage, without accounting for the opponent’s next move. This significantly hindered performance. The solution was to restrict backpropagation to even-numbered moves, ensuring that evaluations always reflected complete cycles.<br /></p>
+
+<p><img src="/Portfolio/assets/Bi-turn.svg" style="display: block; margin: 0 auto;" /></p>
+
+<p>Out-of-memory (OOM) exceptions were a recurring problem in the web build of the engine, primarily because AI algorithms demand substantial memory. The jar-engine in particular experienced spikes of up to 1.5 GB after each calculation. This occurred because the heuristic function used ten <code class="language-plaintext highlighter-rouge">List&lt;int[2]&gt;</code>, each containing four <code class="language-plaintext highlighter-rouge">int[2]</code>. Since the heuristic was invoked five times per node across 30,000 nodes, the process required approximately six million heap allocations, leading to severe memory overhead.</p>
+
+<p>To address this, two optimizations were introduced. First, lists were replaced with structs wherever possible to avoid repeated allocation and deallocation on the heap. Second, for lists that could not be converted, a “scratchpad” approach was adopted—reusing the same list by manually clearing it between uses. These changes reduced the memory spike to about 100 MB per MCTS calculation, a 75% improvement compared to the original implementation.</p>
+
+<hr />
+
+
+  </div><a class="u-url" href="/Portfolio/portfolio/shax_01" hidden></a>
+</article>
+
+      </div>
+    </main>
+    <!-- footer is everthing after the page, you should definitly modify this --><footer class="site-footer h-card">
+  <data class="u-url" href="/Portfolio/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Your awesome title</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Your awesome title</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/Portfolio/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/Portfolio/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
