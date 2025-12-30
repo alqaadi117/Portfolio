@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" /><updated>2025-09-28T00:29:19+03:00</updated><id>http://localhost:4000/Portfolio/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">comb project</title><link href="http://localhost:4000/Portfolio/portfolio/comb" rel="alternate" type="text/html" title="comb project" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/the-old-comb</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/comb"><![CDATA[<p>Project comb:
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" /><updated>2025-12-30T14:06:34+02:00</updated><id>http://localhost:4000/Portfolio/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">comb project</title><link href="http://localhost:4000/Portfolio/portfolio/comb" rel="alternate" type="text/html" title="comb project" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/the-old-comb</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/comb"><![CDATA[<p>Project comb:
 Topics:</p>
 <ol>
   <li>
@@ -49,7 +49,52 @@ If you cant then remove this section</li>
   <li>Better design; compliant, statement of my limited knowledge
 Later mechanism</li>
   <li>Aesthetic [idk]</li>
-</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Project comb: Topics: Product description Styling Hair comb Problem: regular standard combs work optimally with straight hair since it flow properties can be displayed in 2 dimensional. However curly hairs requires 3 dimesional. To be more precise, the comparison in description starts only after detangling; standard When brushing curly hairs using tradional comb [following is displayed in PowerPoint like boxes and arrows] Straight hair: comb straights hair in the 1 direction, hair clumps in the y direction, hair dryes and stays in shape Curly hair: comb curly hair in the 1 direction, hair clumps in the y direction, hair starts drying, hair starts twisting in groups determined by the clumps, natural curl force works against clump, causing clump to break and result messy hair. A simple alternative solution is to drench hair in water, this causes neighboring hair strands to clump, when it dries, the hair curling force doesn’t work against clump. [image of trad comb, with straight line highlighted] While this is a good solution, it forces users to drench their hair full and dry it which takes a very long time and demotivates most people. This is the problem we intent to solve by introducing comb which separates and clumps hair with minimum amount of water thus saving estimated 60% of users times. [image of comb clumping spaces in rectangular lines]]]></summary></entry><entry><title type="html">shax 0.1</title><link href="http://localhost:4000/Portfolio/portfolio/shax_01" rel="alternate" type="text/html" title="shax 0.1" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/shax</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/shax_01"><![CDATA[<h1 id="product-description">Product description</h1>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Project comb: Topics: Product description Styling Hair comb Problem: regular standard combs work optimally with straight hair since it flow properties can be displayed in 2 dimensional. However curly hairs requires 3 dimesional. To be more precise, the comparison in description starts only after detangling; standard When brushing curly hairs using tradional comb [following is displayed in PowerPoint like boxes and arrows] Straight hair: comb straights hair in the 1 direction, hair clumps in the y direction, hair dryes and stays in shape Curly hair: comb curly hair in the 1 direction, hair clumps in the y direction, hair starts drying, hair starts twisting in groups determined by the clumps, natural curl force works against clump, causing clump to break and result messy hair. A simple alternative solution is to drench hair in water, this causes neighboring hair strands to clump, when it dries, the hair curling force doesn’t work against clump. [image of trad comb, with straight line highlighted] While this is a good solution, it forces users to drench their hair full and dry it which takes a very long time and demotivates most people. This is the problem we intent to solve by introducing comb which separates and clumps hair with minimum amount of water thus saving estimated 60% of users times. [image of comb clumping spaces in rectangular lines]]]></summary></entry><entry><title type="html">design</title><link href="http://localhost:4000/Portfolio/portfolio/design" rel="alternate" type="text/html" title="design" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/design</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/design"><![CDATA[<p>all current image</p>
+
+<p>assets\combImages<br />
+<img src="/Portfolio/assets/combImages/pedestal-white-studio-image1.jpg" /></p>
+
+<p><img src="/Portfolio/assets/combImages/pedestal-blue-studio-image20.jpg" /></p>
+
+<p><img src="/Portfolio/assets/combImages/brush-image3.jpg" /></p>
+
+<p><img src="/Portfolio/assets/combImages/hanger-image-1.png" /></p>
+
+<p><img src="/Portfolio/assets/combImages/final-image-5-desaturated.jpg" />
+<img src="/Portfolio/assets/combImages/assembly-instruction-stage-1-done.png" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[all current image]]></summary></entry><entry><title type="html">comb</title><link href="http://localhost:4000/Portfolio/portfolio/combb" rel="alternate" type="text/html" title="comb" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/comb</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/combb"><![CDATA[<!-- <img src="/Portfolio/assets/combImages/new comb images/"> -->
+<style>
+    body {
+      margin: 0;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  </style>
+
+<body>
+  <p><img src="/Portfolio/assets/combImages/new comb images/portfolio_1heroShot.png" alt="Full width image" />
+  <img src="/Portfolio/assets/combImages/new comb images/portfolio_2name.png" alt="Full width image" />
+  <img src="/Portfolio/assets/combImages/new comb images/portfolio_5longpage.png" alt="Full width image" />
+  <img src="/Portfolio/assets/combImages/new comb images/portfolio_6cad.png" alt="Full width image" />
+  <img src="/Portfolio/assets/combImages/new comb images/portfolio_7sketch.png" alt="Full width image" />
+  <img src="/Portfolio/assets/combImages/new comb images/portfolio_8usage.png" alt="Full width image" />
+  <img src="/Portfolio/assets/combImages/new comb images/portfolio_9assembly.png" alt="Full width image" /></p>
+</body>
+
+<!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_1heroShot.png"> -->
+<!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_2name.png"> -->
+
+<!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_5longpage.png"> -->
+<!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_6cad.png"> -->
+<!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_7sketch.png"> -->
+<!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_8usage.png"> -->
+<!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_9assembly.png"> -->
+
+<!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_3.png"> -->
+<!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_4.png"> -->]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">shax 0.1</title><link href="http://localhost:4000/Portfolio/portfolio/shax_01" rel="alternate" type="text/html" title="shax 0.1" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/shax</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/shax_01"><![CDATA[<h1 id="product-description">Product description</h1>
 
 <p>Shax (also known as Jar) is an abstract strategy game with custodian capture rules, played on a 5X5 board. The game consists of two phases: a <em>placement phase</em> followed by a <em>movement and capture phase</em>. Shax is popular in East Africa, and while its exact origin is unknown, it is closely related to <em>Seega</em>, a traditional game from Egypt.</p>
 
@@ -304,60 +349,7 @@ p {font-family: 'lato', Dancing script;}
   <li>Skills: 8+ years of Software &amp; Programming (C, C++, C#); experienced with CAD software (Solidworks &amp; AutoCAD), Unity engine; ANSYS, LabVIEW, and AutoCAD; basic skills in RSLogix 500.</li>
   <li>Interests: Programming; Problem solving; Art (mostly classical); collecting items; photography; Futsal;</li>
   <li>Language: English (fluency)</li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">comb</title><link href="http://localhost:4000/Portfolio/portfolio/combb" rel="alternate" type="text/html" title="comb" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/comb</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/combb"><![CDATA[<center> 
-
-# Project comb
-
-</center>
-<p>Topics</p>
-
-<h2 id="product-description">Product description</h2>
-<p>Styling Hair comb<br />
-Problem: regular standard combs work optimally with straight hair since it flow properties can be displayed in 2 dimensional. However curly hairs requires 3 dimesional.<br />
-To be more precise, the comparison in description starts only after detangling; standard.<br />
-When brushing curly hairs using tradional comb<br />
-[following is displayed in PowerPoint like boxes and arrows]<br />
-Straight hair: comb straights hair in the 1 direction, hair clumps in the y direction, hair dryes and stays in shape<br />
-Curly hair: comb curly hair in the 1 direction, hair clumps in the y direction, hair starts drying, hair starts twisting in groups determined by the clumps, natural curl force works against clump, causing clump to break and result messy hair.<br />
-A simple alternative solution is to drench hair in water, this causes neighboring hair strands to clump, when it dries, the hair curling force doesn’t work against clump.<br />
-[image of trad comb, with straight line highlighted]<br />
-While this is a good solution, it forces users to drench their hair full and dry it which takes a very long time and demotivates most people. This is the problem we intent to solve by introducing comb which separates and clumps hair with minimum amount of water thus saving estimated 60% of users times.<br />
-[image of comb clumping spaces in rectangular lines]</p>
-
-<h2 id="product-requirementsimportant-material-weight-simplicity-minimum-body-parts-design-for-3d-printing">Product requirements(important): material, weight, simplicity, minimum body parts, design for 3d printing</h2>
-<p>Very light weight is imperative, simple in aesthetic, minimum body parts to insure higher lifespan.<br />
-The product will be 3d printed with flexible material using SLS(use longer version) since product won’t suffer from anisotropic complications. Current printing material is Nylon 12 which is flexible to the required degree.</p>
-
-<h2 id="protoypes-overall-and-induvial-mechanism">Protoypes, overall and induvial mechanism</h2>
-<p>There have being numerous comb design prototypes, with many mechanism considered. This section will detail some of them so as to show why the final result is logical and near excellence{c’mon be more humble}.<br />
-List of considered mechanism:<br />
-rigid teeth vs bending teeth made from smart material.<br />
-Comb teeth are not parallel but are angled and expand from the center. A mechanism reduces the angle b/w teeth, this has the advantage of using thinner teeth and simpler parts but it lacks accuracy.<br />
-Rotating teeth<br />
-Switch mechanism:<br />
-Latch + stick + bell crank/scotch yoke + spring<br />
-Latch(bending stick with linear snap action)<br />
-Latch(push-push mechanism)<br />
--Prototype 1<br />
-Pictures of first prototype[gearfest]<br />
-Prototype 2<br />
-Images of second prototype [spiraling way to heaven]<br />
-Prototype 3<br />
-Images of third prototype [layered skin]</p>
-
-<h2 id="material-properties">Material properties</h2>
-<p>Nylon 12; flexible plastic, low water absorption.</p>
-<h2 id="simulation-fixture-detent-mechanism">Simulation: fixture; detent mechanism</h2>
-<p>There are 3 points that requires simulation; top fixture, detent mechanism, teeth-hair contact.<br />
-Show top fixture simulation pictures; state material strain limits, compare and state chosen<br />
-Show compliant detent mechanism, show that it either week or requires too much force. State that operating force is 1-3N<br />
-Do a quick simulation on teeth-hair</p>
-<h2 id="topology-optimization">Topology optimization</h2>
-<p>Do topology optimization.<br />
-If you cant then remove this section</p>
-<h2 id="better-design-compliant-statement-of-my-limited-knowledge">Better design; compliant, statement of my limited knowledge</h2>
-<p>Later mechanism</p>
-<h2 id="aesthetic-idk">Aesthetic [idk]</h2>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">shax 0.1</title><link href="http://localhost:4000/Portfolio/portfolio/shax_01" rel="alternate" type="text/html" title="shax 0.1" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/chronicle-of-monty</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/shax_01"><![CDATA[<p>little monty and big monty use to go to the forest together to play, until one day big monty lost little monty and he was afraid to go back home without him. he started howling, yawning, puffing and making every sound untill medium monty appeared from the trunk of the big tree. medium monty was slimy and he promised to find little monty if big monty gave him the munchies. big monty hastly agreed not knowing what it was.</p>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">shax 0.1</title><link href="http://localhost:4000/Portfolio/portfolio/shax_01" rel="alternate" type="text/html" title="shax 0.1" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/chronicle-of-monty</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/shax_01"><![CDATA[<p>little monty and big monty use to go to the forest together to play, until one day big monty lost little monty and he was afraid to go back home without him. he started howling, yawning, puffing and making every sound untill medium monty appeared from the trunk of the big tree. medium monty was slimy and he promised to find little monty if big monty gave him the munchies. big monty hastly agreed not knowing what it was.</p>
 
 <p>medium monty leaped through the trees and effortlessly brought back weeping little monty. big monty became joyous, but unbeknownst to him medium monty turned into a big monkey and demanded the munchies. big monty afraid vehemently pointed to his home and said “munchies there” medium monty sprinted away. big monty and little monty started running back to the house as it was dark and upon entering the house. they saw the horror in their mothers eye exclaiming “mother of all monties help, strike thee thythou, helio help medium monty is infecting the munchies”. as she completed her cries the roof opened and mother of all monties appeared carrying the entirety of munich in one hand and the chronicle of monties in the other; she looked appalled by the disgusting look medium monty gave her, as she was about to cast him away he wailed for the mother of all munchies, crying he said “hmmm aughhds ohoh ohho ohho”.</p>
 
