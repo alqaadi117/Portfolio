@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" /><updated>2025-12-30T14:06:34+02:00</updated><id>http://localhost:4000/Portfolio/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">comb project</title><link href="http://localhost:4000/Portfolio/portfolio/comb" rel="alternate" type="text/html" title="comb project" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/the-old-comb</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/comb"><![CDATA[<p>Project comb:
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" /><updated>2025-12-31T22:13:54+02:00</updated><id>http://localhost:4000/Portfolio/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">comb project</title><link href="http://localhost:4000/Portfolio/portfolio/comb" rel="alternate" type="text/html" title="comb project" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/the-old-comb</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/comb"><![CDATA[<p>Project comb:
 Topics:</p>
 <ol>
   <li>
@@ -61,7 +61,62 @@ Later mechanism</li>
 <p><img src="/Portfolio/assets/combImages/hanger-image-1.png" /></p>
 
 <p><img src="/Portfolio/assets/combImages/final-image-5-desaturated.jpg" />
-<img src="/Portfolio/assets/combImages/assembly-instruction-stage-1-done.png" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[all current image]]></summary></entry><entry><title type="html">comb</title><link href="http://localhost:4000/Portfolio/portfolio/combb" rel="alternate" type="text/html" title="comb" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/comb</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/combb"><![CDATA[<!-- <img src="/Portfolio/assets/combImages/new comb images/"> -->
+<img src="/Portfolio/assets/combImages/assembly-instruction-stage-1-done.png" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[all current image]]></summary></entry><entry><title type="html">comb</title><link href="http://localhost:4000/Portfolio/portfolio/combb" rel="alternate" type="text/html" title="comb" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/comb</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/combb"><![CDATA[<html lang="en">
+
+<!-- dont touch the head --><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>comb | Your awesome title</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="comb" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<link rel="canonical" href="http://localhost:4000/Portfolio/portfolio/combb" />
+<meta property="og:url" content="http://localhost:4000/Portfolio/portfolio/combb" />
+<meta property="og:site_name" content="Your awesome title" />
+<meta property="og:image" content="http://localhost:4000/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-08-08T01:35:17+03:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png" />
+<meta property="twitter:title" content="comb" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-08T01:35:17+03:00","datePublished":"2025-08-08T01:35:17+03:00","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"comb","image":"http://localhost:4000/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Portfolio/portfolio/combb"},"url":"http://localhost:4000/Portfolio/portfolio/combb"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/Portfolio/assets/main.css" /><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Portfolio/feed.xml" title="Your awesome title" /></head>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/Portfolio/">
+        <img src="/Portfolio/assets/combImages/newCombImages/portfolio_1heroShot.png" alt="Portfolio Hero" />
+
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a href="/Portfolio/">Home</a>
+      <a href="/Portfolio/about/">About</a>
+      <a href="/Portfolio/portfolio/">Portfolio</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header { background:#000; color:#fff; width:100%; }
+  .container { max-width:1200px; margin:0 auto; padding:.6rem 1rem; display:flex; align-items:center; }
+  .brand img { height:30px; display:block; }
+  .nav { margin-left:auto; display:flex; gap:.9rem; }
+  .nav a { padding:.4rem .7rem; border-radius:6px; color:#ddd; text-decoration:none; }
+  .nav a:hover { background:rgba(255,255,255,.06); color:#fff; }
+
+  /* @media (max-width:640px){
+    .container { flex-direction:column; align-items:stretch; gap:.4rem; }
+    .nav { margin-left:0; flex-wrap:wrap; }
+  } */
+</style>
+</html>
+
+<!-- <img src="/Portfolio/assets/combImages/new comb images/"> -->
 <style>
     body {
       margin: 0;
@@ -75,13 +130,13 @@ Later mechanism</li>
   </style>
 
 <body>
-  <p><img src="/Portfolio/assets/combImages/new comb images/portfolio_1heroShot.png" alt="Full width image" />
-  <img src="/Portfolio/assets/combImages/new comb images/portfolio_2name.png" alt="Full width image" />
-  <img src="/Portfolio/assets/combImages/new comb images/portfolio_5longpage.png" alt="Full width image" />
-  <img src="/Portfolio/assets/combImages/new comb images/portfolio_6cad.png" alt="Full width image" />
-  <img src="/Portfolio/assets/combImages/new comb images/portfolio_7sketch.png" alt="Full width image" />
-  <img src="/Portfolio/assets/combImages/new comb images/portfolio_8usage.png" alt="Full width image" />
-  <img src="/Portfolio/assets/combImages/new comb images/portfolio_9assembly.png" alt="Full width image" /></p>
+  <p><img src="/Portfolio/assets/combImages/newCombImages/portfolio_1heroShot.png" alt="Full width image" />
+  <img src="/Portfolio/assets/combImages/newCombImages/portfolio_2name.png" alt="Full width image" />
+  <img src="/Portfolio/assets/combImages/newCombImages/portfolio_5longpage.png" alt="Full width image" />
+  <img src="/Portfolio/assets/combImages/newCombImages/portfolio_6cad.png" alt="Full width image" />
+  <img src="/Portfolio/assets/combImages/newCombImages/portfolio_7sketch.png" alt="Full width image" />
+  <img src="/Portfolio/assets/combImages/newCombImages/portfolio_8usage.png" alt="Full width image" />
+  <img src="/Portfolio/assets/combImages/newCombImages/portfolio_9assembly.png" alt="Full width image" /></p>
 </body>
 
 <!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_1heroShot.png"> -->
@@ -94,7 +149,7 @@ Later mechanism</li>
 <!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_9assembly.png"> -->
 
 <!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_3.png"> -->
-<!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_4.png"> -->]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">shax 0.1</title><link href="http://localhost:4000/Portfolio/portfolio/shax_01" rel="alternate" type="text/html" title="shax 0.1" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/shax</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/shax_01"><![CDATA[<h1 id="product-description">Product description</h1>
+<!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_4.png"> -->]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png" /><media:content medium="image" url="http://localhost:4000/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">shax 0.1</title><link href="http://localhost:4000/Portfolio/portfolio/shax_01" rel="alternate" type="text/html" title="shax 0.1" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/shax</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/shax_01"><![CDATA[<h1 id="product-description">Product description</h1>
 
 <p>Shax (also known as Jar) is an abstract strategy game with custodian capture rules, played on a 5X5 board. The game consists of two phases: a <em>placement phase</em> followed by a <em>movement and capture phase</em>. Shax is popular in East Africa, and while its exact origin is unknown, it is closely related to <em>Seega</em>, a traditional game from Egypt.</p>
 
