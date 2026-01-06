@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<h1>to fancy is to observe</h1>
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  
+  {% assign combb = site.posts | where: "slug", "comb" | first %}
+  <h3>
+    <a class="post-link" href="{{ combb.url | relative_url }}">
+      {{ combb.title | escape }}
+    </a>
+  </h3>
+  <!-- <img src="{{ combb.image | relative_url }}"> -->
+  <!-- <img>{{ combb.image  }}</img> -->
+  <img src="{{ combb.image | relative_url }}" alt="{{ combb.title | escape }}">
+
+  <!-- post 2 -->
+
+  {% assign shaxPage = site.posts | where: "slug", "shax" | first %}
+  <h3>
+    <a class="post-link" href="{{ shaxPage.url | relative_url }}">
+      {{ shaxPage.title | escape }}
+    </a>
+  </h3>
+  <!-- <img src="{{ combb.image | relative_url }}"> -->
+  <!-- <img>{{ combb.image  }}</img> -->
+  <img src="{{ shaxPage.image | relative_url }}" alt="{{ shaxPage.title | escape }}">
+
+  {{ content }}
+  
+
+    <h2 class="post-list-heading"> default title is Posts</h2>
+    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "default title is Posts" }}</h2> -->
+    
+
+
+
+</div>

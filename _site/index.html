@@ -21,7 +21,7 @@
 {"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"Your awesome title","name":"Your awesome title","url":"http://localhost:4000/Portfolio/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Portfolio/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Portfolio/feed.xml" title="Your awesome title" /></head>
-<body>
+<body style="background-color:ghostwhite;">
     <!-- header displays stuff in header --><header class="site-header">
   <div class="container">
     <a class="brand" href="/Portfolio/">
@@ -31,8 +31,8 @@
 
     <nav class="nav" aria-label="Main">
       <a href="/Portfolio/">Home</a>
+      <a href="/Portfolio/Resume">Resume</a>
       <a href="/Portfolio/about/">About</a>
-      <a href="/Portfolio/portfolio/">Portfolio</a>
     </nav>
   </div>
 </header>
@@ -41,7 +41,7 @@
   .site-header { background:#000; color:#fff; width:100%; }
   .container { max-width:1200px; margin:0 auto; padding:.6rem 1rem; display:flex; align-items:center; }
   .brand img { height:30px; display:block; }
-  .nav { margin-left:auto; display:flex; gap:.9rem; }
+  .nav { margin-left:auto; display:flex; gap:.9rem; font-size: 22px; font-weight: 400; }
   .nav a { padding:.4rem .7rem; border-radius:6px; color:#ddd; text-decoration:none; }
   .nav a:hover { background:rgba(255,255,255,.06); color:#fff; }
 
@@ -50,46 +50,113 @@
     .nav { margin-left:0; flex-wrap:wrap; }
   } */
 </style>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <h1>to fancy is to observe</h1>
-<div class="home">
-  <h3>
-    <a class="post-link" href="/Portfolio/portfolio/combb">
-      comb
-    </a>
-  </h3>
-  <!-- <img src="/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png"> -->
-  <!-- <img>assets/combImages/new comb images/portfolio_1heroShot.png</img> -->
-  <img src="/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png" alt="comb">
+<body >
+<!-- page content is up padding
+wrapper side margin -->
+    <main class="newPage-content" aria-label="Content"> 
+      <div class="newWrapper">
+        <!-- <h>margin starts here </h> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+<style>
+/* Scoped, minimal flex layout. Prefix classes to avoid collisions. */
+.sf {               /* main vertical container */
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
+  gap: 30px;
+  width: 100%;
+}
 
-  <!-- post 2 -->
+.sf__row {          /* each vertical child (row) */
+  display: flex;                 /* horizontal layout inside each row */
+  justify-content: space-between;/* left item to far left, right item to far right */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  align-items: stretch;
+  margin: 0px;                /* margin is outside the filled width */
+  width: calc(100%);      /* fill width not including horizontal margin */
+}
 
-  
-  <h3>
-    <a class="post-link" href="/Portfolio/portfolio/shax_01">
-      shax 0.1
-    </a>
-  </h3>
-  <!-- <img src="/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png"> -->
-  <!-- <img>assets/combImages/new comb images/portfolio_1heroShot.png</img> -->
-  <img src="/Portfolio/assets/shax-pipeline-Flowchart.svg" alt="shax 0.1">
+.sf__left {         /* left area: two text items stacked vertically */
+  display: flex;
+  /* height:100%; */
+  width:auto;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start;  */
+  gap: 4px;
+  min-width: 0;   /* prevents overflow/truncation issues */
+  min-height: 0;  /* allows inner elements to shrink if needed */
+}
 
-  <p>r u lost by any chance</p>
+/* KEY PART - container driven by image size */
+.sf__right {
+  display: flex;
+  height:35vh;       /* fixed height you requested */
+  flex: 0 0 auto;    /* do NOT grow or shrink; size follows content */
+  /* display:inline-flex; */
+  /* optional: keeps the container sized to content */
+ 
+}
 
-  
+/* image fills container height, width determined by aspect ratio */
+.sf__right img {
+  display:block;
+  height:100%;
+  width:auto;
+  /* object-fit not needed (we don't want cropping) */
+}
+.sf__title {  font-family: 'Roboto'; font-stretch: 10%;   line-height: 1; margin-top: -0.08em; font-size: 60px; font-weight: 600; letter-spacing: -0px;}
+.sf__subtitle { font-family: 'Roboto'; font-size: 27px; }
+.sf__tags { font-family: 'Roboto'; font-size: 20px; font-weight: 400;}
 
-    <h2 class="post-list-heading"> default title is Posts</h2>
-    <!-- <h2 class="post-list-heading">default title is Posts</h2> -->
-    
+</style>
 
+<!-- HTML (put in the body where you want the component) -->
+<div class="sf">
+  <div class="sf__row">
+    <div class="sf__left">
+      <!-- <div class="sf__title"><h1 style="font-size: 32px; padding-top: 0px;">Your Text Here</h1></div> -->
+      <div class="up">
+        <div class="sf__title"><a href="/Portfolio/portfolio/shax_01">Shax</a></div>
+        <div class="sf__subtitle">This is about Shax <br></div>
+      </div>
+      <div class="sf__tags">Tag: AI engine, monte-carlos, board game, MCTS visualization, C#, Flexbox</div>
+      
+      
+    </div>
+    <div class="sf__right">
+      <!-- <img src="https://picsum.photos/300/200" alt="image"> -->
+      <img src="/Portfolio/assets/combImages/newCombImages/portfolio_1heroShot.png">
 
+       
+    </div>
+  </div>
 
+  <div class="sf__row">
+    <div class="sf__left">
+      <div class="up">
+        <div class="sf__title"><a href="/Portfolio/portfolio/detangler">Detangler</a></div>
+        <div class="sf__subtitle">This is about Detangler</div>
+      </div>
+      <div class="sf__tags">Tag: Cad modelling, industrial design, simulation, Keyshots rendering, sketching</div>
+
+    </div>
+    <div class="sf__right">
+      <!-- <img src="https://picsum.photos/300/200" alt="image"> -->
+      <img src="/Portfolio/assets/combImages/newCombImages/portfolio_1heroShot.png">
+    </div>
+  </div>
 </div>
 
       </div>
     </main>
-    <!-- footer is everthing after the page, you should definitly modify this --><footer class="site-footer h-card">
+  </body>
+    <!-- footer is everthing after the page, you should definitly modify this -->
+    <!--<footer class="site-footer h-card">
   <data class="u-url" href="/Portfolio/"></data>
 
   <div class="wrapper">
@@ -113,6 +180,40 @@
   </div>
 
 </footer>
-</body>
+-->
+
+  </body>
 
 </html>
+
+
+
+<style>
+/* plain CSS version (no Sass) */
+.newPage-content {
+  padding: 1rem 0;      /* $spacing-unit -> 1rem */
+  flex: 1 0 auto;
+}
+
+/* clearfix replacement for @extend %clearfix */
+.newWrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.newWrapper {
+  /* max-width: 72rem; this is good for the image */
+  max-width: 70rem;     /* $content-width -> 42rem (≈672px) */
+  margin: 0 auto;
+  padding: 0 1rem;      /* 0 $spacing-unit -> 0 1rem */
+}
+
+/* media query must be top-level in plain CSS */
+@media screen and (max-width: 640px) {  /* $on-medium -> 640px */
+  .newWrapper {
+    padding-right: 0.6rem;   /* $spacing-unit * 0.6 -> 0.6rem */
+    padding-left: 0.6rem;
+  }
+}
+</style>

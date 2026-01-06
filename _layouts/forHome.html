@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  <!-- dont touch the head -->
+  {%- include head.html -%}
+
+  <body style="background-color:ghostwhite;">
+    <!-- header displays stuff in header -->
+    {%- include myHeader.html -%}
+    <body >
+<!-- page content is up padding
+wrapper side margin -->
+    <main class="newPage-content" aria-label="Content"> 
+      <div class="newWrapper">
+        {{ content }}
+      </div>
+    </main>
+  </body>
+    <!-- footer is everthing after the page, you should definitly modify this -->
+    <!-- {%- include footer.html -%}  -->
+
+  </body>
+
+</html>
+
+
+
+<style>
+/* plain CSS version (no Sass) */
+.newPage-content {
+  padding: 1rem 0;      /* $spacing-unit -> 1rem */
+  flex: 1 0 auto;
+}
+
+/* clearfix replacement for @extend %clearfix */
+.newWrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.newWrapper {
+  /* max-width: 72rem; this is good for the image */
+  max-width: 70rem;     /* $content-width -> 42rem (≈672px) */
+  margin: 0 auto;
+  padding: 0 1rem;      /* 0 $spacing-unit -> 0 1rem */
+}
+
+/* media query must be top-level in plain CSS */
+@media screen and (max-width: 640px) {  /* $on-medium -> 640px */
+  .newWrapper {
+    padding-right: 0.6rem;   /* $spacing-unit * 0.6 -> 0.6rem */
+    padding-left: 0.6rem;
+  }
+}
+</style>

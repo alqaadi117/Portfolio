@@ -7,15 +7,17 @@
   <body>
     <!-- header displays stuff in header -->
     {%- include myHeader.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+<!-- page content is up padding
+wrapper side margin -->
+    <main class="page-content" aria-label="Content" style="padding-top: 0px"> 
+      <div class="wrapper" >
         {{ content }}
       </div>
     </main>
     <!-- footer is everthing after the page, you should definitly modify this -->
-    {%- include footer.html -%} 
+    <!-- {%- include footer.html -%}  -->
 
   </body>
 
 </html>
+<!-- padding="1rem 0" flex= "1 0 auto" -->

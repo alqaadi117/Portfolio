@@ -32,8 +32,8 @@
 
     <nav class="nav" aria-label="Main">
       <a href="/Portfolio/">Home</a>
+      <a href="/Portfolio/Resume">Resume</a>
       <a href="/Portfolio/about/">About</a>
-      <a href="/Portfolio/portfolio/">Portfolio</a>
     </nav>
   </div>
 </header>
@@ -42,7 +42,7 @@
   .site-header { background:#000; color:#fff; width:100%; }
   .container { max-width:1200px; margin:0 auto; padding:.6rem 1rem; display:flex; align-items:center; }
   .brand img { height:30px; display:block; }
-  .nav { margin-left:auto; display:flex; gap:.9rem; }
+  .nav { margin-left:auto; display:flex; gap:.9rem; font-size: 22px; font-weight: 400; }
   .nav a { padding:.4rem .7rem; border-radius:6px; color:#ddd; text-decoration:none; }
   .nav a:hover { background:rgba(255,255,255,.06); color:#fff; }
 
@@ -51,12 +51,14 @@
     .nav { margin-left:0; flex-wrap:wrap; }
   } */
 </style>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
+<!-- page content is up padding
+wrapper side margin -->
+    <main class="page-content" aria-label="Content" style="padding-top: 0px"> 
+      <div class="wrapper" >
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Welcome to Jekyll!</h1>
+    <!-- <h1 class="post-title p-name" itemprop="name headline">Welcome to Jekyll!</h1> -->
     <p class="post-meta">
       <time class="dt-published" datetime="2025-08-05T01:35:17+03:00" itemprop="datePublished"><!-- Aug 5, 2025 -->
       </time></p>
@@ -89,7 +91,8 @@
 
       </div>
     </main>
-    <!-- footer is everthing after the page, you should definitly modify this --><footer class="site-footer h-card">
+    <!-- footer is everthing after the page, you should definitly modify this -->
+    <!--<footer class="site-footer h-card">
   <data class="u-url" href="/Portfolio/"></data>
 
   <div class="wrapper">
@@ -113,6 +116,9 @@
   </div>
 
 </footer>
-</body>
+-->
+
+  </body>
 
 </html>
+<!-- padding="1rem 0" flex= "1 0 auto" -->

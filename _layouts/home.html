@@ -1,42 +1,99 @@
 ---
-layout: default
+layout: forHome
 ---
-<h1>to fancy is to observe</h1>
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<!-- <h>margin starts here </h> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+<style>
+/* Scoped, minimal flex layout. Prefix classes to avoid collisions. */
+.sf {               /* main vertical container */
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
+  gap: 30px;
+  width: 100%;
+}
 
-  
-  {% assign combb = site.posts | where: "slug", "comb" | first %}
-  <h3>
-    <a class="post-link" href="{{ combb.url | relative_url }}">
-      {{ combb.title | escape }}
-    </a>
-  </h3>
-  <!-- <img src="{{ combb.image | relative_url }}"> -->
-  <!-- <img>{{ combb.image  }}</img> -->
-  <img src="{{ combb.image | relative_url }}" alt="{{ combb.title | escape }}">
+.sf__row {          /* each vertical child (row) */
+  display: flex;                 /* horizontal layout inside each row */
+  justify-content: space-between;/* left item to far left, right item to far right */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  align-items: stretch;
+  margin: 0px;                /* margin is outside the filled width */
+  width: calc(100%);      /* fill width not including horizontal margin */
+}
 
-  <!-- post 2 -->
+.sf__left {         /* left area: two text items stacked vertically */
+  display: flex;
+  /* height:100%; */
+  width:auto;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  /* justify-content: flex-start; */
+  /* align-items: flex-start;  */
+  gap: 4px;
+  min-width: 0;   /* prevents overflow/truncation issues */
+  min-height: 0;  /* allows inner elements to shrink if needed */
+}
 
-  {% assign shaxPage = site.posts | where: "slug", "shax" | first %}
-  <h3>
-    <a class="post-link" href="{{ shaxPage.url | relative_url }}">
-      {{ shaxPage.title | escape }}
-    </a>
-  </h3>
-  <!-- <img src="{{ combb.image | relative_url }}"> -->
-  <!-- <img>{{ combb.image  }}</img> -->
-  <img src="{{ shaxPage.image | relative_url }}" alt="{{ shaxPage.title | escape }}">
+/* KEY PART - container driven by image size */
+.sf__right {
+  display: flex;
+  height:35vh;       /* fixed height you requested */
+  flex: 0 0 auto;    /* do NOT grow or shrink; size follows content */
+  /* display:inline-flex; */
+  /* optional: keeps the container sized to content */
+ 
+}
 
-  {{ content }}
-  
+/* image fills container height, width determined by aspect ratio */
+.sf__right img {
+  display:block;
+  height:100%;
+  width:auto;
+  /* object-fit not needed (we don't want cropping) */
+}
+.sf__title {  font-family: 'Roboto'; font-stretch: 10%;   line-height: 1; margin-top: -0.08em; font-size: 60px; font-weight: 600; letter-spacing: -0px;}
+.sf__subtitle { font-family: 'Roboto'; font-size: 27px; }
+.sf__tags { font-family: 'Roboto'; font-size: 20px; font-weight: 400;}
 
-    <h2 class="post-list-heading"> default title is Posts</h2>
-    <!-- <h2 class="post-list-heading">{{ page.list_title | default: "default title is Posts" }}</h2> -->
-    
+</style>
 
+<!-- HTML (put in the body where you want the component) -->
+<div class="sf">
+  <div class="sf__row">
+    <div class="sf__left">
+      <!-- <div class="sf__title"><h1 style="font-size: 32px; padding-top: 0px;">Your Text Here</h1></div> -->
+      <div class="up">
+        <div class="sf__title"><a href="{{ '/portfolio/shax_01' | relative_url }}">Shax</a></div>
+        <div class="sf__subtitle">This is about Shax <br></div>
+      </div>
+      <div class="sf__tags">Tag: AI engine, monte-carlos, board game, MCTS visualization, C#, Flexbox</div>
+      
+      
+    </div>
+    <div class="sf__right">
+      <!-- <img src="https://picsum.photos/300/200" alt="image"> -->
+      <img src="{{ site.baseurl }}/assets/combImages/newCombImages/portfolio_1heroShot.png">
 
+       
+    </div>
+  </div>
 
+  <div class="sf__row">
+    <div class="sf__left">
+      <div class="up">
+        <div class="sf__title"><a href="{{ '/portfolio/detangler' | relative_url }}">Detangler</a></div>
+        <div class="sf__subtitle">This is about Detangler</div>
+      </div>
+      <div class="sf__tags">Tag: Cad modelling, industrial design, simulation, Keyshots rendering, sketching</div>
+
+    </div>
+    <div class="sf__right">
+      <!-- <img src="https://picsum.photos/300/200" alt="image"> -->
+      <img src="{{ site.baseurl }}/assets/combImages/newCombImages/portfolio_1heroShot.png">
+    </div>
+  </div>
 </div>

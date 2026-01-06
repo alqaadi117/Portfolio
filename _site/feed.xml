@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" /><updated>2025-12-31T22:13:54+02:00</updated><id>http://localhost:4000/Portfolio/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">comb project</title><link href="http://localhost:4000/Portfolio/portfolio/comb" rel="alternate" type="text/html" title="comb project" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/the-old-comb</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/comb"><![CDATA[<p>Project comb:
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/Portfolio/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/Portfolio/" rel="alternate" type="text/html" /><updated>2026-01-06T18:10:02+02:00</updated><id>http://localhost:4000/Portfolio/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">comb project</title><link href="http://localhost:4000/Portfolio/portfolio/comb" rel="alternate" type="text/html" title="comb project" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/the-old-comb</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/comb"><![CDATA[<p>Project comb:
 Topics:</p>
 <ol>
   <li>
@@ -61,7 +61,7 @@ Later mechanism</li>
 <p><img src="/Portfolio/assets/combImages/hanger-image-1.png" /></p>
 
 <p><img src="/Portfolio/assets/combImages/final-image-5-desaturated.jpg" />
-<img src="/Portfolio/assets/combImages/assembly-instruction-stage-1-done.png" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[all current image]]></summary></entry><entry><title type="html">comb</title><link href="http://localhost:4000/Portfolio/portfolio/combb" rel="alternate" type="text/html" title="comb" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/comb</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/combb"><![CDATA[<html lang="en">
+<img src="/Portfolio/assets/combImages/assembly-instruction-stage-1-done.png" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[all current image]]></summary></entry><entry><title type="html">comb</title><link href="http://localhost:4000/Portfolio/portfolio/detangler" rel="alternate" type="text/html" title="comb" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/comb</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/detangler"><![CDATA[<html lang="en">
 
 <!-- dont touch the head --><head>
   <meta charset="utf-8" />
@@ -73,8 +73,8 @@ Later mechanism</li>
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="http://localhost:4000/Portfolio/portfolio/combb" />
-<meta property="og:url" content="http://localhost:4000/Portfolio/portfolio/combb" />
+<link rel="canonical" href="http://localhost:4000/Portfolio/portfolio/detangler" />
+<meta property="og:url" content="http://localhost:4000/Portfolio/portfolio/detangler" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta property="og:image" content="http://localhost:4000/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png" />
 <meta property="og:type" content="article" />
@@ -83,7 +83,7 @@ Later mechanism</li>
 <meta property="twitter:image" content="http://localhost:4000/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png" />
 <meta property="twitter:title" content="comb" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-08T01:35:17+03:00","datePublished":"2025-08-08T01:35:17+03:00","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"comb","image":"http://localhost:4000/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Portfolio/portfolio/combb"},"url":"http://localhost:4000/Portfolio/portfolio/combb"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-08T01:35:17+03:00","datePublished":"2025-08-08T01:35:17+03:00","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"comb","image":"http://localhost:4000/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Portfolio/portfolio/detangler"},"url":"http://localhost:4000/Portfolio/portfolio/detangler"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Portfolio/assets/main.css" /><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Portfolio/feed.xml" title="Your awesome title" /></head>
 <header class="site-header">
@@ -95,8 +95,8 @@ Later mechanism</li>
 
     <nav class="nav" aria-label="Main">
       <a href="/Portfolio/">Home</a>
+      <a href="/Portfolio/Resume">Resume</a>
       <a href="/Portfolio/about/">About</a>
-      <a href="/Portfolio/portfolio/">Portfolio</a>
     </nav>
   </div>
 </header>
@@ -105,7 +105,7 @@ Later mechanism</li>
   .site-header { background:#000; color:#fff; width:100%; }
   .container { max-width:1200px; margin:0 auto; padding:.6rem 1rem; display:flex; align-items:center; }
   .brand img { height:30px; display:block; }
-  .nav { margin-left:auto; display:flex; gap:.9rem; }
+  .nav { margin-left:auto; display:flex; gap:.9rem; font-size: 22px; font-weight: 400; }
   .nav a { padding:.4rem .7rem; border-radius:6px; color:#ddd; text-decoration:none; }
   .nav a:hover { background:rgba(255,255,255,.06); color:#fff; }
 
@@ -115,7 +115,7 @@ Later mechanism</li>
   } */
 </style>
 </html>
-
+<!-- change the name from comb to detangler -->
 <!-- <img src="/Portfolio/assets/combImages/new comb images/"> -->
 <style>
     body {
@@ -127,7 +127,7 @@ Later mechanism</li>
       width: 100%;
       height: auto;
     }
-  </style>
+</style>
 
 <body>
   <p><img src="/Portfolio/assets/combImages/newCombImages/portfolio_1heroShot.png" alt="Full width image" />
@@ -135,8 +135,14 @@ Later mechanism</li>
   <img src="/Portfolio/assets/combImages/newCombImages/portfolio_5longpage.png" alt="Full width image" />
   <img src="/Portfolio/assets/combImages/newCombImages/portfolio_6cad.png" alt="Full width image" />
   <img src="/Portfolio/assets/combImages/newCombImages/portfolio_7sketch.png" alt="Full width image" />
-  <img src="/Portfolio/assets/combImages/newCombImages/portfolio_8usage.png" alt="Full width image" />
-  <img src="/Portfolio/assets/combImages/newCombImages/portfolio_9assembly.png" alt="Full width image" /></p>
+  <!-- <img src="/Portfolio/assets/combImages/newCombImages/portfolio_8usage.png" alt="Full width image"> -->
+  <img src="/Portfolio/assets/combImages/newCombImages/usageTitle.png" alt="Full width image" />
+  <!-- the video is not transparent, export transparent version from clip studio --></p>
+  <video autoplay="" loop="" muted="" width="83.9%" style="display: block; margin: 0 auto; align-items: center;">
+  <source src="/Portfolio/assets/combImages/newCombImages/usageVid.mp4" type="video/mp4" />
+  </video>
+
+  <p><img src="/Portfolio/assets/combImages/newCombImages/portfolio_9assembly.png" alt="Full width image" /></p>
 </body>
 
 <!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_1heroShot.png"> -->
@@ -149,7 +155,8 @@ Later mechanism</li>
 <!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_9assembly.png"> -->
 
 <!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_3.png"> -->
-<!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_4.png"> -->]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png" /><media:content medium="image" url="http://localhost:4000/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">shax 0.1</title><link href="http://localhost:4000/Portfolio/portfolio/shax_01" rel="alternate" type="text/html" title="shax 0.1" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/shax</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/shax_01"><![CDATA[<h1 id="product-description">Product description</h1>
+<!-- <img src="/Portfolio/assets/combImages/new comb images/portfolio_4.png"> -->]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png" /><media:content medium="image" url="http://localhost:4000/Portfolio/assets/combImages/new%20comb%20images/portfolio_1heroShot.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">shax 0.1</title><link href="http://localhost:4000/Portfolio/portfolio/shax_01" rel="alternate" type="text/html" title="shax 0.1" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/shax</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/shax_01"><![CDATA[<h1 class="post-title p-name" itemprop="name headline">shax 0.1</h1>
+<h1 id="product-description">Product description</h1>
 
 <p>Shax (also known as Jar) is an abstract strategy game with custodian capture rules, played on a 5X5 board. The game consists of two phases: a <em>placement phase</em> followed by a <em>movement and capture phase</em>. Shax is popular in East Africa, and while its exact origin is unknown, it is closely related to <em>Seega</em>, a traditional game from Egypt.</p>
 
@@ -274,7 +281,7 @@ this was because i had a heuristic function with 10 list&lt;int[2]&gt;, each lis
 
 <p>To address this, two optimizations were introduced. First, lists were replaced with structs wherever possible to avoid repeated allocation and deallocation on the heap. Second, for lists that could not be converted, a “scratchpad” approach was adopted—reusing the same list by manually clearing it between uses. These changes reduced the memory spike to about 100 MB per MCTS calculation, a 75% improvement compared to the original implementation.</p>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[Product description]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/Portfolio/assets/shax-pipeline-Flowchart.svg" /><media:content medium="image" url="http://localhost:4000/Portfolio/assets/shax-pipeline-Flowchart.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">mark my resume</title><link href="http://localhost:4000/Portfolio/portfolio/markedResume" rel="alternate" type="text/html" title="mark my resume" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/resume</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/markedResume"><![CDATA[<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&amp;display=swap" rel="stylesheet" />
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[shax 0.1 Product description]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/Portfolio/assets/shax-pipeline-Flowchart.svg" /><media:content medium="image" url="http://localhost:4000/Portfolio/assets/shax-pipeline-Flowchart.svg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Resume</title><link href="http://localhost:4000/Portfolio/Resume" rel="alternate" type="text/html" title="Resume" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/resume</id><content type="html" xml:base="http://localhost:4000/Portfolio/Resume"><![CDATA[<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&amp;display=swap" rel="stylesheet" />
 
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;display=swap" rel="stylesheet" />
 
@@ -302,28 +309,27 @@ table, td {
   border: none !important;
   padding: 4px !important;
 }
-h1 {font-family: 'Playfair Display', Dancing script;}
-h3 {font-family: 'montserrat', Dancing script;}
-h4 {font-family: 'lato', Dancing script;}
-p {font-family: 'lato', Dancing script;}
+h1 {font-family: 'Playfair Display', Georgia;}
+h3 {font-family: 'montserrat', Arial;}
+h4 {font-family: 'lato', Arial;}
+p {font-family: 'lato', Arial;}
+li { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+notstrong {font-weight: 600}
 
 </style>
 
-<h1 id="abdulaahi-mohamed">Abdulaahi Mohamed</h1>
+<h1 class="post-title p-name" itemprop="name headline">Resume</h1>
+
 <h1>Abdulaahi Mohamed </h1>
 
-<p>I am an MSc Mechanical Engineer graduate, specializing in Manufacturing Processes and Mechatronic system design. My expertise includes working with flexible fiber-based materials and utilizing tools such as SolidWorks, RSLogix 500, LabVIEW, and Unity. In addition, I have over 8 years of programming experience in languages like C, C++, C#, JavaScript, Python, and Rust, combining engineering knowledge with strong technical skills. I also gained practical experience in production, automation, assembly, and maintenance during my time at the Coca-Cola Bottling Company.
-<br /></p>
-<div style="font-family: 'Arial'">
-  <p>This text will use garamond.</p>
-</div>
-<p><br /></p>
+<p>MSc Mechanical Engineering graduate with a specialisation in Sustainable Manufacturing and Robotics &amp; Mechatronics. Experienced in developing innovative solutions using fibre-based materials and conducting research in ultrasonic sealing for eco-friendly packaging. Strong foundation in CAD software (SolidWorks), automation systems, and programming with 8+ years of experience in C, C++, C#, Python, and Rust. Adept at working in both high-tech lab environments and fast-paced production settings.
+Passionate about merging mechanical design with software and automation to build future-ready engineering systems.</p>
 
 <!-- <p style="font-family: 'Libre Baskerville'">This text uses Libre Baskerville.</p>
 <p style="font-family: 'Garamond';">This text uses Libre Baskerville.</p>
 <p style="font-family: 'Dancing script';">This text uses Libre Baskerville.</p> -->
 
-<h3 style="margin-bottom: 0; font-weight: bold;">CONTACT INFORMATION</h3>
+<h3 style="margin-bottom: 0; padding-top: 1rem; font-weight: bold;">CONTACT INFORMATION</h3>
 <hr style="margin-top: 1px; margin-bottom: 20px;" />
 
 <table style="width: 100%;">
@@ -331,11 +337,11 @@ p {font-family: 'lato', Dancing script;}
     <td><strong>Nationality</strong></td>
     <td>Finnish</td>
     <td><strong>Address</strong></td>
-    <td>Korpimetsänkatu 5 B 36 Lappeenranta, South Karelia</td>
+    <td>59 Rose court Nursery road London, UK</td>
   </tr>
   <tr>
     <td><strong>Mobile</strong></td>
-    <td>045 324 80 90</td>
+    <td>+44 7917 079749</td>
     <td><strong>Email</strong></td>
     <td>Abdulaahi.mohamed@outlook.com</td>
   </tr>
@@ -356,15 +362,63 @@ p {font-family: 'lato', Dancing script;}
 <ul>
   <li>GPA: 3.2</li>
   <li>Specialty: “Sustainable Manufacturing Processes” and “Robotics and Mechatronics”</li>
-  <li>Master thesis topic: “Investigating the practicality of ultrasonic sealing for flexible fiber-based materials as a lidding for paper cup applications” conducted at LUT Packaging Technology laboratory</li>
+  <li>Master thesis topic: <notstrong>“Investigating the practicality of ultrasonic sealing for flexible fiber-based materials as a lidding for paper cup applications”</notstrong> conducted at LUT Packaging Technology laboratory</li>
   <ul>
     <li>The thesis experiment was conducted using UPM materials Prego and Confidio. It consisted of two parts: Firstly, the samples were ultrasonically sealed and tested for seal strength according to ASTM F88. Secondly, the same materials were ultrasonically sealed as lids for disposable paper cups made from CupForma Special PE, contributing to the R&amp;D efforts in sustainable packaging solutions.</li>
   </ul>
 </ul>
-<p><br /></p>
 
-<h3 style="margin-bottom: 0; font-weight: bold;">WORK EXPERIENCE</h3>
+<h3 style="margin-bottom: 0; padding-top: 1rem; font-weight: bold;">CERTIFICATE</h3>
 <hr style="margin-top: 1px; margin-bottom: 20px;" />
+
+<div style="display: flex; justify-content: space-between;">
+  <h4 style="margin: 0;"><strong>Paul Lynn’s PLC Dojo</strong></h4>
+  <h4 style="margin: 0;"><strong>May 2025</strong></h4>
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <p style="margin: 0;">PLC Fundamentals, logic, and visualization</p>
+  <p><!-- <p style="margin: 0;">Lappeenranta, South Karelia</p> --></p>
+</div>
+
+<ul style="list-style: none;">
+  <li>Completed studies in the fundamentals of PLC, applied Logic and process visualization; proficiency in <notstrong>RSLogix 500</notstrong> and <notstrong>Wonderware</notstrong>; familiarity with <notstrong>easybbuilder 5000</notstrong> and <notstrong>advancedHMI</notstrong></li>
+  
+  <ul style="list-style: disc;">
+    <li>Project architecture, alarm handling, debugging, simulation, HOA programming, analog and digital signal processing, digital control logic.</li>
+    <li>Solved a wide variety of complex automation problems using ladder diagram programming independently.</li>
+    <li>Mastered HMI/SCADA development by independently creating several full-featured projects each built on a different visualization technology.</li>
+  </ul>
+</ul>
+
+<div style="display: flex; justify-content: space-between;">
+  <h4 style="margin: 0;"><strong>Dassault Systèmes - SOLIDWORKS</strong></h4>
+  <h4 style="margin: 0;"><strong>May 2025</strong></h4>
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <p style="margin: 0;">CSWA</p>
+  <p><!-- <p style="margin: 0;">Lappeenranta, South Karelia</p> --></p>
+</div>
+
+<ul style="list-style: none;">
+  <li>SOLIDWORKS CAD Design Associate(<notstrong>CSWA</notstrong>) certificate recognized by Dassault Systèmes.</li>
+</ul>
+<!-- <br> -->
+
+<h3 style="margin-bottom: 0; padding-top: 1rem; font-weight: bold;">WORK EXPERIENCE</h3>
+<hr style="margin-top: 1px; margin-bottom: 20px;" />
+
+<div style="display: flex; justify-content: space-between;">
+  <h4 style="margin: 0;"><strong>K.Hartwall</strong></h4>
+  <h4 style="margin: 0;"><strong>Feb 2025 – Jun 2025</strong></h4>
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <p style="margin: 0;">Welder</p>
+  <p style="margin: 0;">Helsinki, Uusima</p>
+</div>
+
+<ul>
+  <li>Worked as a welder in a semi-automated environment, completing welds the robot could not reach and correcting its mistakes, while inspecting overall weld quality and adapting to frequently changing products.</li>
+</ul>
 
 <div style="display: flex; justify-content: space-between;">
   <h4 style="margin: 0;"><strong>Finnish Army conscript - karjalan prikaati</strong></h4>
@@ -376,11 +430,25 @@ p {font-family: 'lato', Dancing script;}
 </div>
 
 <ul>
-  <li>6 month mandatory service in Kranaatinheitinkomppanian.</li>
-  <li>Gained an understanding of hierarchical leadership; observing the flow of orders, how subordinates are kept in the dark; and the importance of keeping morale during stressful times.</li>
-  <li>Cultivated strong work ethic, efficiency in time and resources under extremely stressful conditions.</li>
-  <li>Realized the value of teamwork and mutual reliance, sharing workload, motivating, and ensuring that no one slacks off.</li>
-  <li>Point two</li>
+  <li>Completed 6-month mandatory service in Kranaatinheitinkomppania.</li>
+  <li>Developed leadership awareness through a structured military hierarchy.</li>
+  <li>Strengthened resilience, time management, and collaboration under pressure.</li>
+  <li>Realized the value of teamwork and mutual reliance, sharing workload, motivating, and ensuring that all work is done.</li>
+</ul>
+
+<div style="display: flex; justify-content: space-between;">
+  <h4 style="margin: 0;"><strong>Pelican motors LTD (PIAGGIAO distributor)</strong></h4>
+  <h4 style="margin: 0;"><strong>Dec 2017 – Jun 2020</strong></h4>
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <p style="margin: 0;">Engineering Intern / Apprentice Mechanic</p>
+  <p style="margin: 0;">Mogadishu, Banaadir</p>
+</div>
+
+<ul>
+  <li>Started as an Engineering Intern, independently assembling over 20 auto rickshaws from start to finish.</li>
+  <li>Transitioned into an Apprentice Mechanic role, focusing on mechanical repairs and quality assurance.</li>
+  <li>Regularly supported vehicle assembly during high-demand periods.</li>
 </ul>
 
 <div style="display: flex; justify-content: space-between;">
@@ -393,17 +461,22 @@ p {font-family: 'lato', Dancing script;}
 </div>
 
 <ul>
-  <li>Production; Worked at the production line for 2 weeks with machines involved in the production from blowing, filling, shrink to water treatment plant.</li>
-  <li>Maintenance; Worked with the maintenance team for a week at a time when most of the machines were in dire need of maintenance.</li>
+  <li><notstrong>Production</notstrong>; Worked at the production line for 2 weeks with machines involved in the production from blowing, filling, shrink to water treatment plant.</li>
+  <li><notstrong>Maintenance</notstrong>; Worked with the maintenance team for a week at a time when most of the machines were in dire need of maintenance.</li>
 </ul>
 
-<h3 style="margin-bottom: 0; font-weight: bold;">SKILLS &amp; INTERESTS</h3>
+<h3 style="margin-bottom: 0; padding-top: 1rem; font-weight: bold;">SKILLS &amp; INTERESTS</h3>
 <hr style="margin-top: 1px; margin-bottom: 20px;" />
 
 <ul>
-  <li>Skills: 8+ years of Software &amp; Programming (C, C++, C#); experienced with CAD software (Solidworks &amp; AutoCAD), Unity engine; ANSYS, LabVIEW, and AutoCAD; basic skills in RSLogix 500.</li>
-  <li>Interests: Programming; Problem solving; Art (mostly classical); collecting items; photography; Futsal;</li>
-  <li>Language: English (fluency)</li>
+  <li>Software &amp; CAD: SolidWorks, AutoCAD, ANSYS, Unity, LabVIEW </li>
+  <li>Programming: C, C++, C#, JavaScript, Python, Rust. </li>
+  <li>Automation Tools: proficiency in RSLogix 500, Wonderware; familiarity  with easybbuilder 5000 and advancedHMI</li>
+  <li>Interests: Programming; Problem solving; Art (mostly classical); photography; Futsal;</li>
+  <li>Language: English (<notstrong>fluency</notstrong>)</li>
+
+  
+
 </ul>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">shax 0.1</title><link href="http://localhost:4000/Portfolio/portfolio/shax_01" rel="alternate" type="text/html" title="shax 0.1" /><published>2025-08-08T01:35:17+03:00</published><updated>2025-08-08T01:35:17+03:00</updated><id>http://localhost:4000/Portfolio/portfolio/chronicle-of-monty</id><content type="html" xml:base="http://localhost:4000/Portfolio/portfolio/shax_01"><![CDATA[<p>little monty and big monty use to go to the forest together to play, until one day big monty lost little monty and he was afraid to go back home without him. he started howling, yawning, puffing and making every sound untill medium monty appeared from the trunk of the big tree. medium monty was slimy and he promised to find little monty if big monty gave him the munchies. big monty hastly agreed not knowing what it was.</p>
 
 <p>medium monty leaped through the trees and effortlessly brought back weeping little monty. big monty became joyous, but unbeknownst to him medium monty turned into a big monkey and demanded the munchies. big monty afraid vehemently pointed to his home and said “munchies there” medium monty sprinted away. big monty and little monty started running back to the house as it was dark and upon entering the house. they saw the horror in their mothers eye exclaiming “mother of all monties help, strike thee thythou, helio help medium monty is infecting the munchies”. as she completed her cries the roof opened and mother of all monties appeared carrying the entirety of munich in one hand and the chronicle of monties in the other; she looked appalled by the disgusting look medium monty gave her, as she was about to cast him away he wailed for the mother of all munchies, crying he said “hmmm aughhds ohoh ohho ohho”.</p>
