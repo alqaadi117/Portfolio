@@ -25,15 +25,15 @@
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Portfolio/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/Portfolio/feed.xml" title="Your awesome title" /></head>
 <body>
-    <!-- header displays stuff in header --><header class="site-header">
+    <!-- header displays stuff in header --><header class="site-headerr">
   <div class="container">
     <a class="brand" href="/Portfolio/">
-        <img src="/Portfolio/assets/combImages/newCombImages/portfolio_1heroShot.png" alt="Portfolio Hero">
-
+        <!-- <img src="/Portfolio/assets/combImages/newCombImages/portfolio_1heroShot.png" alt="Portfolio Hero"> -->
+        Home
     </a>
 
     <nav class="nav" aria-label="Main">
-      <a href="/Portfolio/">Home</a>
+      <!-- <a href="/Portfolio/">Home</a> -->
       <a href="/Portfolio/Resume">Resume</a>
       <a href="/Portfolio/about/">About</a>
     </nav>
@@ -41,12 +41,17 @@
 </header>
 
 <style>
-  .site-header { background:#000; color:#fff; width:100%; }
+  .site-headerr { background:#000; color:#fff; width:100%; }
   .container { max-width:1200px; margin:0 auto; padding:.6rem 1rem; display:flex; align-items:center; }
-  .brand img { height:30px; display:block; }
-  .nav { margin-left:auto; display:flex; gap:.9rem; font-size: 22px; font-weight: 400; }
-  .nav a { padding:.4rem .7rem; border-radius:6px; color:#ddd; text-decoration:none; }
-  .nav a:hover { background:rgba(255,255,255,.06); color:#fff; }
+  /* .brand img { height:30px; display:block; } */
+
+  .container {  font-size: 22px; font-weight: 400; }
+  .container a { padding:.4rem .7rem; border-radius:6px; color:#ddd; text-decoration:none; }
+  .container a:hover { background:rgba(255,255,255,.06); color:#fff; }
+
+  .nav { margin-left:auto; display:flex; gap:.9rem; font-size: 22px; font-weight: 400; padding-right: 5%; }
+  /* .nav a { padding:.4rem .7rem; border-radius:6px; color:#ddd; text-decoration:none; }
+  .nav a:hover { background:rgba(255,255,255,.06); color:#fff; } */
 
   /* @media (max-width:640px){
     .container { flex-direction:column; align-items:stretch; gap:.4rem; }
@@ -79,7 +84,7 @@ wrapper side margin -->
 <a href="/Portfolio/unity/shax01/index.html">Play My Game</a>
 -->
 
-<iframe src="/Portfolio/unity/shax2502/index.html" width="1024" height="620" style="position: relative;  left: 50%;  transform: translateX(-50%);  border:none;"></iframe>
+<iframe src="/Portfolio/unity/shax3001/index.html" width="1024" height="620" style="position: relative;  left: 50%;  transform: translateX(-50%);  border:none;"></iframe>
 
 <!-- style= "display: flex;  justify-content: center; width: 100vw;   margin-left: calc(50% - 50vw);" -->
 <!-- style="display:block; position: relative; width: 100vw;  margin-left: 50%;   transform: translateX(-50%);" -->
@@ -154,25 +159,25 @@ To find adjacent in serialized position without any conversion, we use the follo
 <img src="/Portfolio/assets/control.png"> -->
 <p>The five patterns are as follow:</p>
 
-<p>Knight control (+2pts), Rook control (+2pts), Solo corner control (+1pt), Duo corner control, Trio edge control (+2pts).</p>
+<p>Knight control (+2pts), Rook control (+2pts), Solo corner control (+1pt), Duo corner control (+2pts), Trio edge control (+2pts).</p>
 
-<p>Every instance of the game board can be analyzed and given a score. for example this board below has score of xyx from blue side.</p>
+<p>Every instance of the game board can be analyzed and given a score. for example this board below has score of 18 points from blue side.</p>
 
 <!-- <img src="/Portfolio/assets/midGame-annotation.svg" style="display: block; margin: 0 auto;"> -->
 <p><img src="/Portfolio/assets/midGame-annotation.svg" /></p>
 
 <h2 id="mct-ui">MCT UI</h2>
-<p>little monty and big monty<br />
-MCTS UI tree was built with unity UI toolkit which uses CSS Flexbox-like styling system. In this section the challenge was less about the tool but how to display it in manner that is informative and user friendly, avoiding cluttering etc.<br />
-That’s why we decided to use tree system with minimized text and added indicator on the board to avoid using information board[find better word].</p>
 
-<video width="736" height="414" autoplay="" muted="" style="display: block; margin: 0 auto;">
+<p>MCTS UI tree was built with unity UI toolkit which uses CSS Flexbox-like styling system. In this section the challenge was less about the tool but how to display it in manner that is informative and user friendly, avoiding cluttering etc.<br />
+That’s why we decided to use tree system with minimized text and added indicators on the board to avoid having information board.</p>
+
+<video width="736" height="414" autoplay="" muted="" controls="" style="display: block; margin: 0 auto;">
 <source src="/Portfolio/assets/UI-demo.mp4" type="video/mp4" />
 </video>
 
 <p><br /></p>
 <h2 id="miscellaneous">Miscellaneous</h2>
-<h3 id="my-version">[my version]<br /></h3>
+
 <p>There were numerous problems faced in making the engine. Initially there was no simulation in the MCTS this caused the moves to be uninspiring and predictable while also reducing entropy. there was also the cases of AI becoming too defensive and other cases of it becoming careless about the danger; this hubris was due to the lack of Bi-turn backpropagation. And finally the hardest problem to solve OOM-out of memory-. In this section, will go through them in details.</p>
 
 <p>During the early development of the engine, the AI was too defensive because all backpropagation stages were values the same, this was fixed by adding exponential decay along the backpropagation. and in the case were the AI was too offensive, this was triggered because half the nodes are disproportionate [ends without complete bi-turn cycles]. For example, if the AI count odd moves like ‘AI-&gt;human-&gt;AI’ it would assume it has advantage when in reality it should’ve considered the following opponents move. this was a particularly hindering problem and it’s solution is to stop backpropagation only at even moves.<br /></p>
@@ -180,20 +185,9 @@ That’s why we decided to use tree system with minimized text and added indicat
 <p><img src="/Portfolio/assets/Bi-turn.svg" style="display: block; margin: 0 auto;" /></p>
 
 <p>OOM or ‘out of memory exception’ was particularly re-occurring problem in the web build of the engine. this was due to the reality that AI algorithm require a huge memory. My jar-engine suffered from 1.5 GB of memory spike after every calculation. this was because every node was
-this was because i had a heuristic function with 10 list&lt;int[2]&gt;, each list containing 4 int[2]; the heuristic function is called 5 times per node and there are 30,000 node. this calls for <strong>6 million</strong> heap allocation causing ludicrous memory spike. the solution was to switch from list to struct to avoid constant allocation followed de-allocation in the heap. and any list which couldn’t be changed to struct were kept with the use scratchpad which is basically reusing the same list by manually clearing it with each use. these 2 solutions made the spike to a 100 MB per MCTS calculation reducing 75% from the original spike.</p>
+this was because i had a heuristic function with 10 <code class="language-plaintext highlighter-rouge">list&lt;int[2]&gt;</code>, each list containing 4 <code class="language-plaintext highlighter-rouge">int[2]</code>; the heuristic function is called 5 times per node and there are 30,000 node. this calls for <strong>6 million</strong> heap allocation causing ludicrous memory spike. the solution was to switch from list to struct to avoid constant allocation followed de-allocation in the heap. and any list which couldn’t be changed to struct were kept with the use scratchpad which is basically reusing the same list by manually clearing it with each use. these 2 solutions made the spike to a 100 MB per MCTS calculation reducing 75% from the original spike.</p>
 
-<h3 id="gpt-version">[gpt version]<br /></h3>
-<p>Several challenges arose during the development of the engine. Initially, the absence of simulation in the MCTS resulted in moves that were predictable and uninspiring, with reduced entropy. In some cases, the AI became overly defensive, while in others it neglected potential dangers; this inconsistency stemmed from the lack of bi-turn backpropagation. The most difficult issue, however, was out-of-memory (OOM) errors. In this section, each of these problems will be discussed in detail.</p>
-
-<p>During the early stages of development, the AI often played too defensively because all stages of backpropagation were weighted equally. This issue was resolved by applying exponential decay along the backpropagation path. Conversely, when the AI played too aggressively, the problem stemmed from nodes that ended prematurely, without completing a full bi-turn cycle. For example, after a sequence like <em>AI → Human → AI</em>, the engine mistakenly assumed an advantage, without accounting for the opponent’s next move. This significantly hindered performance. The solution was to restrict backpropagation to even-numbered moves, ensuring that evaluations always reflected complete cycles.<br /></p>
-
-<p><img src="/Portfolio/assets/Bi-turn.svg" style="display: block; margin: 0 auto;" /></p>
-
-<p>Out-of-memory (OOM) exceptions were a recurring problem in the web build of the engine, primarily because AI algorithms demand substantial memory. The jar-engine in particular experienced spikes of up to 1.5 GB after each calculation. This occurred because the heuristic function used ten <code class="language-plaintext highlighter-rouge">List&lt;int[2]&gt;</code>, each containing four <code class="language-plaintext highlighter-rouge">int[2]</code>. Since the heuristic was invoked five times per node across 30,000 nodes, the process required approximately six million heap allocations, leading to severe memory overhead.</p>
-
-<p>To address this, two optimizations were introduced. First, lists were replaced with structs wherever possible to avoid repeated allocation and deallocation on the heap. Second, for lists that could not be converted, a “scratchpad” approach was adopted—reusing the same list by manually clearing it between uses. These changes reduced the memory spike to about 100 MB per MCTS calculation, a 75% improvement compared to the original implementation.</p>
-
-<hr />
+<!-- ------------ -->
 
 
   </div><a class="u-url" href="/Portfolio/portfolio/shax_01" hidden></a>

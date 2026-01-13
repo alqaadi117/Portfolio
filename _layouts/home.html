@@ -42,7 +42,12 @@ layout: forHome
 .sf__right {
   display: flex;
   height:35vh;       /* fixed height you requested */
-  flex: 0 0 auto;    /* do NOT grow or shrink; size follows content */
+  aspect-ratio: 8000 / 3238;
+  justify-content: flex-end;
+  /* width: calc(height/(8000px/3238px)); */
+  /* flex: 0 0 auto; */
+      /* do NOT grow or shrink; size follows content */
+
   /* display:inline-flex; */
   /* optional: keeps the container sized to content */
  
@@ -76,8 +81,11 @@ layout: forHome
     </div>
     <div class="sf__right">
       <!-- <img src="https://picsum.photos/300/200" alt="image"> -->
-      <img src="{{ site.baseurl }}/assets/combImages/newCombImages/portfolio_1heroShot.png">
-
+       <!-- homeShax720p -->
+      <!-- <img src="{{ site.baseurl }}/assets/combImages/newCombImages/portfolio_1heroShot.png"> -->
+      <video autoplay muted loop style="display: block; ">
+        <source src="{{ site.baseurl }}/assets/homeShax720p.mp4" type="video/mp4" />
+      </video> 
        
     </div>
   </div>
